@@ -1,16 +1,19 @@
 
+//setting environment variables 
 require('dotenv').config();
 
+//discord requirements
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+//prefix = !
 const { prefix } = require('./config.json')
 
+//env vars 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-
 let ver = process.env.NODE_ENV
 
-
+//testing will display in code land and production will display ready for action
 client.on('ready', () => {
     console.log(` \n Logged in as ${client.user.tag} \n`);
     if(ver === 'production') {
@@ -28,7 +31,7 @@ client.on('message', msg => {
     }
 });
 
-//command for bot
+//commands for bot sends name of message and image
 client.on('message', message => {
     const msg = message.content.toLowerCase()
     if (msg === `${prefix}atheflead`) {
