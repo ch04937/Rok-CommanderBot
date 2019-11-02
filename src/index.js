@@ -1,9 +1,12 @@
 
+require('dotenv').config();
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const {prefix, token} = require('./config.json')
+const { prefix } = require('./config.json')
 
+const BOT_TOKEN = process.env.BOT_TOKEN;
 
 client.on('ready', () => {
     console.log(` \n Logged in as ${client.user.tag} \n`);
@@ -234,7 +237,7 @@ client.on('message', message => {
         })
     }
     if (msg === `${prefix}richard`) {
-        message.channel.send('richard', {
+        message.channel.send('richard and we can edit this part to add whatever information we need', {
             files: [
                 "./src/assets/richard1.PNG", 
                 "./src/assets/richard2.PNG",
@@ -274,5 +277,5 @@ client.on('message', message => {
 })
 
 
-client.login(token)
+client.login(BOT_TOKEN)
 
