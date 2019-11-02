@@ -8,8 +8,18 @@ const { prefix } = require('./config.json')
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
+let ver = process.env.NODE_ENV
+
+
 client.on('ready', () => {
     console.log(` \n Logged in as ${client.user.tag} \n`);
+    if(ver === 'production') {
+        console.log('in production')
+        client.user.setActivity(`Ready for Action`)
+    }else{
+        console.log('in development')
+        client.user.setActivity('In code land')
+    }
 })
 // playing ping pong
 client.on('message', msg => {
