@@ -3,17 +3,17 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const {
-    BOT_TOKEN,    
+    BOT_TOKEN,
+    PREFIX,
 } = require('./config.js')
 
 
 client.on('ready', () => {
     console.log(` \n Logged in as ${client.user.tag} \n`);
 })
-
 // playing ping pong
 client.on('message', msg => {
-    if(msg.content === '!ping') {
+    if(msg.content === `${PREFIX}ping`) {
         msg.reply('Pong!');
     }
 });
@@ -21,63 +21,98 @@ client.on('message', msg => {
 //command for bot
 client.on('message', message => {
     const msg = message.content.toLowerCase()
-    if (msg === "!atheflead") {
+    if (msg === `${PREFIX}atheflead`) {
         message.channel.send('atheflead', {
             files: [
                 "./src/assets/atheflead.PNG", 
             ]
         })
     }
-    if (msg === "!scipio") {
+    if (msg === `${PREFIX}scipio`) {
         message.channel.send('scipio', {
             files: [
                 "./src/assets/scipio.PNG", 
             ]
         })
     }
-    if (msg === "!hanibal") {
+    if (msg === `${PREFIX}hanibal`) {
         message.channel.send('hanibal', {
             files: [
                 "./src/assets/hanibal1.PNG", 
             ]
         })
     }
-    if (msg === "!saladin") {
+    if (msg === `${PREFIX}saladin`) {
         message.channel.send('saladin', {
             files: [
                 "./src/assets/saladin1.PNG", 
             ]
         })
     }
-    if (msg === "!constantine") {
+    if (msg === `${PREFIX}constance`) {
+        message.channel.send('constance', {
+            files: [
+                "./src/assets/constance1.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}constantine`) {
         message.channel.send('constantine', {
             files: [
                 "./src/assets/constantine1.PNG", 
             ]
         })
     }
-    if (msg === "!lohar") {
+    if (msg === `${PREFIX}lohar`) {
         message.channel.send('lohar', {
             files: [
                 "./src/assets/lohar1.PNG", 
             ]
         })
     }
-    if (msg === "!boudica") {
+    if (msg === `${PREFIX}boudica`) {
         message.channel.send('boudica', {
             files: [
                 "./src/assets/boudica1.PNG", 
             ]
         })
     }
-    if (msg === "!gengis khan") {
+    if (msg === `${PREFIX}osman`) {
+        message.channel.send('osman', {
+            files: [
+                "./src/assets/osman1.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}city keeper`) {
+        message.channel.send('city keeper', {
+            files: [
+                "./src/assets/citykeeper1.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}dragon lancer`) {
+        message.channel.send('dragon lancer', {
+            files: [
+                "./src/assets/dragonlancer1.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}tomoe gozen`) {
+        message.channel.send('tomoe gozen', {
+            files: [
+                "./src/assets/tomoegozen1.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}gengis khan`) {
         message.channel.send('gengis khan', {
             files: [
                 "./src/assets/gengiskhan1.PNG", 
             ]
         })
     }
-    if (msg === "!cleopatra") {
+    if (msg === `${PREFIX}cleopatra`) {
         message.channel.send('cleopatra', {
             files: [
                 "./src/assets/cleopatra1.PNG", 
@@ -85,7 +120,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!joan of arc") {
+    if (msg === `${PREFIX}joan of arc`) {
         message.channel.send('joan of arc', {
             files: [
                 "./src/assets/joanofarc1.PNG", 
@@ -93,7 +128,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!sun tzu") {
+    if (msg === `${PREFIX}sun tzu`) {
         message.channel.send('sun tzu', {
             files: [
                 "./src/assets/suntzu1.PNG", 
@@ -101,7 +136,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!julius ceaser") {
+    if (msg === `${PREFIX}julius ceaser`) {
         message.channel.send('julius ceaser', {
             files: [
                 "./src/assets/ceaser1.PNG", 
@@ -109,7 +144,15 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!frederick") {
+    if (msg === `${PREFIX}lancelot`) {
+        message.channel.send('lancelot', {
+            files: [
+                "./src/assets/lancelot1.PNG", 
+                "./src/assets/lancelot2.PNG", 
+            ]
+        })
+    }
+    if (msg === `${PREFIX}frederick`) {
         message.channel.send('frederick', {
             files: [
                 "./src/assets/frederick1.PNG", 
@@ -117,7 +160,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!el cid") {
+    if (msg === `${PREFIX}el cid`) {
         message.channel.send('el cid', {
             files: [
                 "./src/assets/elcid1.PNG", 
@@ -125,7 +168,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!mehmed") {
+    if (msg === `${PREFIX}mehmed`) {
         message.channel.send('mehmed', {
             files: [
                 "./src/assets/mehmed1.PNG", 
@@ -133,7 +176,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!belisarius") {
+    if (msg === `${PREFIX}belisarius`) {
         message.channel.send('belisarius', {
             files: [
                 "./src/assets/belisarius1.PNG", 
@@ -141,7 +184,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!baibars") {
+    if (msg === `${PREFIX}baibars`) {
         message.channel.send('baibars', {
             files: [
                 "./src/assets/baibars1.PNG", 
@@ -149,7 +192,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!herman") {
+    if (msg === `${PREFIX}herman`) {
         message.channel.send('herman', {
             files: [
                 "./src/assets/herman1.PNG", 
@@ -158,7 +201,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!eulji mundeok") {
+    if (msg === `${PREFIX}eulji mundeok`) {
         message.channel.send('eulji', {
             files: [
                 "./src/assets/eulji1.PNG", 
@@ -167,7 +210,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!charles martel") {
+    if (msg === `${PREFIX}charles martel`) {
         message.channel.send('charles martel', {
             files: [
                 "./src/assets/charlesmartel1.PNG", 
@@ -176,7 +219,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!cao cao") {
+    if (msg === `${PREFIX}cao cao`) {
         message.channel.send('cao cao', {
             files: [
                 "./src/assets/caocao1.PNG", 
@@ -184,7 +227,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!yi seong gye") {
+    if (msg === `${PREFIX}yi seong gye`) {
         message.channel.send('yiSeong-Gye', {
             files: [
                 "./src/assets/yiSeong-Gye1.PNG", 
@@ -193,7 +236,7 @@ client.on('message', message => {
             ]
         })
     }
-    if (msg === "!richard") {
+    if (msg === `${PREFIX}richard`) {
         message.channel.send('richard', {
             files: [
                 "./src/assets/richard1.PNG", 
@@ -202,8 +245,26 @@ client.on('message', message => {
             ]
         })
     }
+    if (msg === `${PREFIX}kusunoki`) {
+        message.channel.send('kusunoki', {
+            files: [
+                "./src/assets/kusunoki1.PNG", 
+                "./src/assets/kusunoki2.PNG",
+                "./src/assets/kusunoki3.PNG",
+            ]
+        })
+    }
+    if (msg === `${PREFIX}pelagius`) {
+        message.channel.send('pelagius', {
+            files: [
+                "./src/assets/pelagius1.PNG", 
+                "./src/assets/pelagius2.PNG",
+                "./src/assets/pelagius3.PNG",
+            ]
+        })
+    }
 
-    if (msg === "!minimoto") {
+    if (msg === `${PREFIX}minimoto`) {
         message.channel.send('minimoto', {
             files: [
                 "./src/assets/minimoto1.PNG", 
