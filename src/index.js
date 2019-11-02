@@ -5,7 +5,7 @@ const client = new Discord.Client();
 const {
     BOT_TOKEN,
     PREFIX,
-} = require('./config.js')
+} = require('./config.json')
 
 
 client.on('ready', () => {
