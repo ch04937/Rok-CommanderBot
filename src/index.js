@@ -5,6 +5,7 @@ require('dotenv').config();
 //discord requirements
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const commanderEmbed = new Discord.RichEmbed
 
 //prefix = !
 const { prefix } = require('./config.json')
@@ -26,7 +27,11 @@ client.on('ready', () => {
 })
 //commands for bot sends name of message and image
 client.on('message', message => {
+    // case sensitive words
     const msg = message.content.toLowerCase()
+    if(message.author.bot) return; // checks if message was sent by a bot
+    if(!message.content.startsWith(prefix)) return;//makes so that user needs prefix
+
     if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) {
         message.channel.send('aetheflead', {
             files: [
@@ -42,11 +47,15 @@ client.on('message', message => {
         })
     }else
     if ( msg.startsWith(prefix+'hani')) {
-        message.channel.send('hanibal', {
-            files: [
-                "./src/assets/hanibal1.PNG", 
-            ]
-        })
+        // message.channel.send('hanibal', {
+        //     files: [
+        //         "./src/assets/hanibal1.PNG", 
+        //     ]
+        // })
+        // console.log('here')
+        // commander.setTitle('Hanibal')
+        // commander.setColor('#7282da')
+        channel.send(commanderEmbed)
     }else
     if ( msg.startsWith(prefix+'sala')) {
         message.channel.send('saladin', {
@@ -269,7 +278,7 @@ client.on('message', message => {
             ]
         })
     }else
-    if ( msg.startsWith(prefix+'mini')) {
+    if ( msg.startsWith(prefix+'mina')) {
         message.channel.send('minimoto', {
             files: [
                 "./src/assets/minimoto1.PNG", 
@@ -278,8 +287,12 @@ client.on('message', message => {
                 "./src/assets/minimoto4.PNG", 
             ]
         })
+    }else{
+        message.channel.send('sorry maybe you spell it wrong try again 😉 ')
+
     }
 })
+
 
 
 client.login(BOT_TOKEN)
