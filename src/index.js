@@ -24,188 +24,181 @@ client.on('ready', () => {
         client.user.setActivity('In code land')
     }
 })
-// playing ping pong
-client.on('message', msg => {
-    if(msg.content === `${prefix}ping`) {
-        msg.reply('Pong!');
-    }
-});
-
 //commands for bot sends name of message and image
 client.on('message', message => {
     const msg = message.content.toLowerCase()
-    if (msg === `${prefix}atheflead`) {
-        message.channel.send('atheflead', {
+    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) {
+        message.channel.send('aetheflead', {
             files: [
                 "./src/assets/atheflead.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}scipio`) {
+    }else
+    if ( msg.startsWith(prefix+'scipio')) {
         message.channel.send('scipio', {
             files: [
-                "./src/assets/scipio.PNG", 
+                "./src/assets/scipio1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}hanibal`) {
+    }else
+    if ( msg.startsWith(prefix+'hani')) {
         message.channel.send('hanibal', {
             files: [
                 "./src/assets/hanibal1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}saladin`) {
+    }else
+    if ( msg.startsWith(prefix+'sala')) {
         message.channel.send('saladin', {
             files: [
                 "./src/assets/saladin1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}constance`) {
+    }else
+    if ( msg.startsWith(prefix+'constance')) {
         message.channel.send('constance', {
             files: [
                 "./src/assets/constance1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}constantine`) {
+    }else
+    if ( msg.startsWith(prefix+'constant')) {
         message.channel.send('constantine', {
             files: [
                 "./src/assets/constantine1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}lohar`) {
+    }else
+    if ( msg.startsWith(prefix+'loh')) {
         message.channel.send('lohar', {
             files: [
                 "./src/assets/lohar1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}boudica`) {
+    }else
+    if ( msg.startsWith(prefix+'boudi')) {
         message.channel.send('boudica', {
             files: [
                 "./src/assets/boudica1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}osman`) {
+    }else
+    if ( msg.startsWith(prefix+'osma')) {
         message.channel.send('osman', {
             files: [
                 "./src/assets/osman1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}city keeper`) {
+    }else
+    if ( msg.startsWith(prefix+'city')) {
         message.channel.send('city keeper', {
             files: [
                 "./src/assets/citykeeper1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}dragon lancer`) {
+    }else
+    if ( msg.startsWith(prefix+'dragon')) {
         message.channel.send('dragon lancer', {
             files: [
                 "./src/assets/dragonlancer1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}tomoe gozen`) {
+    }else
+    if ( msg.startsWith(prefix+'tomoe')) {
         message.channel.send('tomoe gozen', {
             files: [
                 "./src/assets/tomoegozen1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}gengis khan`) {
+    }else
+    if ( msg.startsWith(prefix+'gengis')) {
         message.channel.send('gengis khan', {
             files: [
                 "./src/assets/gengiskhan1.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}cleopatra`) {
+    }else
+    if ( msg.startsWith(prefix+'cleo')) {
         message.channel.send('cleopatra', {
             files: [
                 "./src/assets/cleopatra1.PNG", 
                 "./src/assets/cleopatra2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}joan of arc`) {
+    }else
+    if ( msg.startsWith(prefix+'joan')) {
         message.channel.send('joan of arc', {
             files: [
                 "./src/assets/joanofarc1.PNG", 
                 "./src/assets/joanofarc2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}sun tzu`) {
+    }else
+    if ( msg.startsWith(prefix+'sun')) {
         message.channel.send('sun tzu', {
             files: [
                 "./src/assets/suntzu1.PNG", 
                 "./src/assets/suntzu2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}julius ceaser`) {
+    }else
+    if ( msg.startsWith(prefix+'julius')) {
         message.channel.send('julius ceaser', {
             files: [
                 "./src/assets/ceaser1.PNG", 
                 "./src/assets/ceaser2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}lancelot`) {
+    }else
+    if ( msg.startsWith(prefix+'lance')) {
         message.channel.send('lancelot', {
             files: [
                 "./src/assets/lancelot1.PNG", 
                 "./src/assets/lancelot2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}frederick`) {
+    }else
+    if ( msg.startsWith(prefix+'frede')) {
         message.channel.send('frederick', {
             files: [
                 "./src/assets/frederick1.PNG", 
                 "./src/assets/frederick2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}el cid`) {
+    }else
+    if ( msg.startsWith(prefix+'el')) {
         message.channel.send('el cid', {
             files: [
                 "./src/assets/elcid1.PNG", 
                 "./src/assets/elcid2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}mehmed`) {
+    }else
+    if ( msg.startsWith(prefix+'meh')) {
         message.channel.send('mehmed', {
             files: [
                 "./src/assets/mehmed1.PNG", 
                 "./src/assets/mehmed2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}belisarius`) {
+    }else
+    if ( msg.startsWith(prefix+'beli')) {
         message.channel.send('belisarius', {
             files: [
                 "./src/assets/belisarius1.PNG", 
                 "./src/assets/belisarius2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}baibars`) {
+    }else
+    if ( msg.startsWith(prefix+'bei') ||  msg.startsWith(prefix+'bai')) {
         message.channel.send('baibars', {
             files: [
                 "./src/assets/baibars1.PNG", 
                 "./src/assets/baibars2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}herman`) {
+    }else
+    if ( msg.startsWith(prefix+'herm')) {
         message.channel.send('herman', {
             files: [
                 "./src/assets/herman1.PNG", 
@@ -213,8 +206,8 @@ client.on('message', message => {
                 "./src/assets/herman3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}eulji mundeok`) {
+    }else
+    if ( msg.startsWith(prefix+'eul')) {
         message.channel.send('eulji', {
             files: [
                 "./src/assets/eulji1.PNG", 
@@ -222,8 +215,8 @@ client.on('message', message => {
                 "./src/assets/eulji3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}charles martel`) {
+    }else
+    if ( msg.startsWith(prefix+'charl')) {
         message.channel.send('charles martel', {
             files: [
                 "./src/assets/charlesmartel1.PNG", 
@@ -231,16 +224,16 @@ client.on('message', message => {
                 "./src/assets/charlesmartel3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}cao cao`) {
+    }else
+    if ( msg.startsWith(prefix+'cao')) {
         message.channel.send('cao cao', {
             files: [
                 "./src/assets/caocao1.PNG", 
                 "./src/assets/caocao2.PNG", 
             ]
         })
-    }
-    if (msg === `${prefix}yi seong gye`) {
+    }else
+    if ( msg.startsWith(prefix+'yi') ||  msg.startsWith(prefix+'ysg')) {
         message.channel.send('yiSeong-Gye', {
             files: [
                 "./src/assets/yiSeong-Gye1.PNG", 
@@ -248,8 +241,8 @@ client.on('message', message => {
                 "./src/assets/yiSeong-Gye3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}richard`) {
+    }else
+    if ( msg.startsWith(prefix+'rich')) {
         message.channel.send('richard and we can edit this part to add whatever information we need', {
             files: [
                 "./src/assets/richard1.PNG", 
@@ -257,8 +250,8 @@ client.on('message', message => {
                 "./src/assets/richard3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}kusunoki`) {
+    }else
+    if ( msg.startsWith(prefix+'kusu')) {
         message.channel.send('kusunoki', {
             files: [
                 "./src/assets/kusunoki1.PNG", 
@@ -266,8 +259,8 @@ client.on('message', message => {
                 "./src/assets/kusunoki3.PNG",
             ]
         })
-    }
-    if (msg === `${prefix}pelagius`) {
+    }else
+    if ( msg.startsWith(prefix+'pela')) {
         message.channel.send('pelagius', {
             files: [
                 "./src/assets/pelagius1.PNG", 
@@ -275,9 +268,8 @@ client.on('message', message => {
                 "./src/assets/pelagius3.PNG",
             ]
         })
-    }
-
-    if (msg === `${prefix}minimoto`) {
+    }else
+    if ( msg.startsWith(prefix+'mini')) {
         message.channel.send('minimoto', {
             files: [
                 "./src/assets/minimoto1.PNG", 
