@@ -175,11 +175,11 @@ const gengis = {
 	title: ` Gengiskhan ${card}`,
 	author: {
 		name: 'city',
-		icon_url: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjohvOil9LlAhVMC6wKHfc6DKwQjRx6BAgBEAQ&url=https%3A%2F%2Friseofkingdoms.fandom.com%2Fwiki%2FCommanders%2FGenghis_Khan&psig=AOvVaw2RwyIvol9dYuhshwRi04wq&ust=1573012748759104',
+		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest?cb=20190505172506',
     },
     description: 'Gengiskhan can do this....',
     thumbnail: {
-        url: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjohvOil9LlAhVMC6wKHfc6DKwQjRx6BAgBEAQ&url=https%3A%2F%2Friseofkingdoms.fandom.com%2Fwiki%2FCommanders%2FGenghis_Khan&psig=AOvVaw2RwyIvol9dYuhshwRi04wq&ust=1573012748759104'
+        url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest?cb=20190505172506'
     },
 	image: {
             url: 'attachment://gengiskhan1.PNG',
