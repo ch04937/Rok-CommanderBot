@@ -5,7 +5,8 @@ require('dotenv').config();
 //discord requirements
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const commanderEmbed = new Discord.RichEmbed
+const aethFile = new Discord.Attachment('./src/assets/atheflead1.PNG')
+
 
 //prefix = !
 const { prefix } = require('./config.json')
@@ -13,6 +14,9 @@ const { prefix } = require('./config.json')
 //env vars 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV
+
+//commander embet info/data
+const commander = require('./commanderEmbedInfo')
 
 //testing will display in code land and production will display ready for action
 client.on('ready', () => {
@@ -32,14 +36,9 @@ client.on('message', message => {
     if(message.author.bot) return; // checks if message was sent by a bot
     if(!message.content.startsWith(prefix)) return;//makes so that user needs prefix
 
-    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) {
-        message.channel.send('aetheflead', {
-            files: [
-                "./src/assets/atheflead.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'scipio')) {
+    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [aethFile], embed: commander.aetheflead })
+    
+    else if ( msg.startsWith(prefix+'scipio')) {
         message.channel.send('scipio', {
             files: [
                 "./src/assets/scipio1.PNG", 
@@ -55,7 +54,7 @@ client.on('message', message => {
         // console.log('here')
         // commander.setTitle('Hanibal')
         // commander.setColor('#7282da')
-        channel.send(commanderEmbed)
+        message.channel.send({ embed: embedData.aetheflead })
     }else
     if ( msg.startsWith(prefix+'sala')) {
         message.channel.send('saladin', {
