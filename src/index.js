@@ -34,98 +34,21 @@ client.on('message', message => {
     // case sensitive words
     const msg = message.content.toLowerCase()
     if(message.author.bot) return; // checks if message was sent by a bot
-    if(!message.content.startsWith(prefix)) return;//makes so that user needs prefix
+    if(!message.content.startsWith(prefix)) return; //makes so that user needs prefix
 
-    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })
-    
-    else if ( msg.startsWith(prefix+'scipio')) {
-        message.channel.send('scipio', {
-            files: [
-                "./src/assets/scipio1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'hani')) {
-        // message.channel.send('hanibal', {
-        //     files: [
-        //         "./src/assets/hanibal1.PNG", 
-        //     ]
-        // })
-        // console.log('here')
-        // commander.setTitle('Hanibal')
-        // commander.setColor('#7282da')
-        message.channel.send({ embed: embedData.aetheflead })
-    }else
-    if ( msg.startsWith(prefix+'sala')) {
-        message.channel.send('saladin', {
-            files: [
-                "./src/assets/saladin1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'constance')) {
-        message.channel.send('constance', {
-            files: [
-                "./src/assets/constance1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'constant')) {
-        message.channel.send('constantine', {
-            files: [
-                "./src/assets/constantine1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'loh')) {
-        message.channel.send('lohar', {
-            files: [
-                "./src/assets/lohar1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'boudi')) {
-        message.channel.send('boudica', {
-            files: [
-                "./src/assets/boudica1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'osma')) {
-        message.channel.send('osman', {
-            files: [
-                "./src/assets/osman1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'city')) {
-        message.channel.send('city keeper', {
-            files: [
-                "./src/assets/citykeeper1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'dragon')) {
-        message.channel.send('dragon lancer', {
-            files: [
-                "./src/assets/dragonlancer1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'tomoe')) {
-        message.channel.send('tomoe gozen', {
-            files: [
-                "./src/assets/tomoegozen1.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'gengis')) {
-        message.channel.send('gengis khan', {
-            files: [
-                "./src/assets/gengiskhan1.PNG", 
-            ]
-        })
-    }else
+    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })  
+    else if ( msg.startsWith(prefix+'scipio')) message.channel.send({ files: [file.scipioFile], embed: commander.Scipio })
+    else if ( msg.startsWith(prefix+'han')) message.channel.send({ files: [file.haniFile], embed: commander.hanibal })
+    else if ( msg.startsWith(prefix+'sala')) message.channel.send({ files: [file.salaFile], embed: commander.saladin })
+    else if ( msg.startsWith(prefix+'con')) message.channel.send({ files: [file.constineFile], embed: commander.constine })
+    else if ( msg.startsWith(prefix+'loh')) message.channel.send({ files: [file.loharFile], embed: commander.lohar })
+    else if ( msg.startsWith(prefix+'boudi')) message.channel.send({ files: [file.boudicaFile], embed: commander.boudica })
+    else if ( msg.startsWith(prefix+'osma')) message.channel.send({ files: [file.osmanFile], embed: commander.osman })
+    else if ( msg.startsWith(prefix+'city')) message.channel.send({ files: [file.cityFile], embed: commander.city })
+    else if ( msg.startsWith(prefix+'dragon')) message.channel.send({ files: [file.dragonFile], embed: commander.dragon})
+    else if ( msg.startsWith(prefix+'tomoe')) message.channel.send({ files: [file.tomoeFile], embed:commander.tomoe })
+    else if ( msg.startsWith(prefix+'gengis')) message.channel.send({ files: [file.gengisFile], embed:commander.gengis })
+    else
     if ( msg.startsWith(prefix+'cleo')) {
         message.channel.send('cleopatra', {
             files: [
@@ -295,4 +218,3 @@ client.on('message', message => {
 
 
 client.login(BOT_TOKEN)
-
