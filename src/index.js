@@ -5,7 +5,7 @@ require('dotenv').config();
 //discord requirements
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const aethFile = new Discord.Attachment('./src/assets/atheflead1.PNG')
+const aethFile = new Discord.Attachment('./src/assets/atheflead1.PNG' )
 
 
 //prefix = !

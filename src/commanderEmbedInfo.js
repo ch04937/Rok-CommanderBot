@@ -5,47 +5,17 @@ const card = 'Commander Sheet'
 const aetheflead = {
 	color: gold,
 	title: ` Aetheflead ${card}`,
-	url: 'https://discord.js.org',
 	author: {
-		name: 'Some name',
-		icon_url: 'https://i.imgur.com/wSTFkRM.png',
-		url: 'https://discord.js.org',
-	},
-	description: 'Aetheflead can do this....',
-    	fields: [
-		{
-			name: 'Regular field title',
-			value: 'Some value here',
-		},
-		{
-			name: '\u200b',
-			value: '\u200b',
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-	],
-	image: {
-		url: 'attachment://atheflead1.PNG',
+		name: 'Aetheflead',
+		icon_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiuIWZTOc8qYfDnhtwAkd1eShN71u0R_VuzEo35FiQFhRsadE&s',
     },
-    
-	timestamp: new Date(),
-	footer: {
-		text: 'Some footer text here',
-		icon_url: 'https://i.imgur.com/wSTFkRM.png',
-	},
+    description: 'Aetheflead can do this....',
+    thumbnail: {
+        url: 'https://cdn.shopify.com/s/files/1/0258/1712/0802/products/aethelflaed_480x480.png?v=1565823184'
+    },
+	image: {
+            url: 'attachment://atheflead1.PNG',
+        },
 };
 
 // channel.send({ embed: exampleEmbed });
