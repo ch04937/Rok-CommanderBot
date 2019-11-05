@@ -144,7 +144,7 @@ const dragon = {
 	color: green,
 	title: ` Dragon Lancer ${card}`,
 	author: {
-		name: 'city',
+		name: 'Dragon Lancer',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c4/Dragon_Lancer.png/revision/latest?cb=20181107165413',
     },
     description: 'Dragon Lancer can do this....',
@@ -159,7 +159,7 @@ const tomoe = {
 	color: blue,
 	title: ` Tomoe Gozen ${card}`,
 	author: {
-		name: 'city',
+		name: 'Tomeo Gozen',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/87/Tomoe_Gozen.png/revision/latest?cb=20181107165303',
     },
     description: 'Tomoe Gozen can do this....',
@@ -174,7 +174,7 @@ const gengis = {
 	color: gold,
 	title: ` Gengiskhan ${card}`,
 	author: {
-		name: 'city',
+		name: 'Gengiskhan',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest?cb=20190505172506',
     },
     description: 'Gengiskhan can do this....',
@@ -183,6 +183,66 @@ const gengis = {
     },
 	image: {
             url: 'attachment://gengiskhan1.PNG',
+        },
+};
+const cleo = {
+	color: gold,
+	title: ` Cleopatra ${card}`,
+	author: {
+		name: 'city',
+		icon_url: 'http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg',
+    },
+    description: 'Cleopatra can do this.... If you are looking for gathering skills try cleo gather',
+    thumbnail: {
+        url: 'http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg'
+    },
+	image: {
+            url: 'attachment://cleopatra1.PNG',
+        },
+};
+const cleo2 = {
+    color: gold,
+	title: ` Cleopatra ${card}`,
+	author: {
+		name: 'city',
+		icon_url: 'http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg',
+    },
+    description: 'Cleopatra can do this.... If you are looking for talent support try cleo',
+    thumbnail: {
+        url: 'http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg'
+    },
+	image: {
+            url: 'attachment://cleopatra2.PNG',
+        },
+};
+const joan1 = {
+    color: purple,
+	title: `Joan of Arc ${card}`,
+	author: {
+		name: 'Joan of Arc',
+		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1',
+    },
+    description: 'Joan of Arc can do this.... If you are looking for talent gathering try joan gather',
+    thumbnail: {
+        url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1'
+    },
+	image: {
+            url: 'attachment"//joanofarc1.PNG',
+        },
+};
+const joan2 = {
+    color: purple,
+	title: ` Joan of arc ${card}`,
+	author: {
+		name: 'city',
+		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1',
+    },
+    description: 'Joan of arc can do this.... If you are looking for talent support try joan',
+    thumbnail: {
+        url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1'
+    },
+	image: {
+            url: 'attachment://joanofarc2.PNG',
         },
 };
 
@@ -199,5 +259,9 @@ module.exports = {
     dragon,
     tomoe,
     gengis,
+    cleo,
+    cleo2,
+    joan1,
+    joan2
     
 }

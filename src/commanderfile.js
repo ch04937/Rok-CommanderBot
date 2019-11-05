@@ -14,5 +14,9 @@ module.exports = {
     dragonFile:  new Discord.Attachment('./src/assets/dragonlancer1.PNG'),
     tomoeFile:  new Discord.Attachment('./src/assets/tomoegozen1.PNG'),
     gengisFile:  new Discord.Attachment('./src/assets/gengiskhan1.PNG'),
+    cleo1File:  new Discord.Attachment('./src/assets/cleopatra1.PNG'),
+    cleo2File:  new Discord.Attachment('./src/assets/cleopatra2.PNG'),
+    joan1File:  new Discord.Attachment('./src/assets/joanofarc1.PNG'),
+    joan2File:  new Discord.Attachment('./src/assets/joanofarc2.PNG'),
 
 }

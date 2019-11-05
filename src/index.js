@@ -48,16 +48,13 @@ client.on('message', message => {
     else if ( msg.startsWith(prefix+'dragon')) message.channel.send({ files: [file.dragonFile], embed: commander.dragon})
     else if ( msg.startsWith(prefix+'tomoe')) message.channel.send({ files: [file.tomoeFile], embed:commander.tomoe })
     else if ( msg.startsWith(prefix+'gengis')) message.channel.send({ files: [file.gengisFile], embed:commander.gengis })
-    else
-    if ( msg.startsWith(prefix+'cleo')) {
-        message.channel.send('cleopatra', {
-            files: [
-                "./src/assets/cleopatra1.PNG", 
-                "./src/assets/cleopatra2.PNG", 
-            ]
-        })
-    }else
-    if ( msg.startsWith(prefix+'joan')) {
+    else if ( msg.startsWith(prefix+'cleo') && msg.endsWith('gather')) message.channel.send({ files: [file.cleo2File], embed: commander.cleo2})
+    else if ( msg.startsWith(prefix+'cleo'))  message.channel.send({ files: [file.cleo1File], embed:commander.cleo })
+    // else if ( msg.startsWith(prefix+'joan') && msg.endsWith('gather')) message.channel.send({ files: [file.joan2File], embed: commander.joan2})
+    // else if ( msg.startsWith(prefix+'joan'))  message.channel.send({ files: [file.joan1File], embed:commander.joan1 })
+
+
+    else if ( msg.startsWith(prefix+'joan')) {
         message.channel.send('joan of arc', {
             files: [
                 "./src/assets/joanofarc1.PNG", 
