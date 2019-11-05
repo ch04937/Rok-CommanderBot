@@ -5,8 +5,8 @@ require('dotenv').config();
 //discord requirements
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const aethFile = new Discord.Attachment('./src/assets/atheflead1.PNG' )
 
+const file = require('./commanderfile.js')
 
 //prefix = !
 const { prefix } = require('./config.json')
@@ -36,7 +36,7 @@ client.on('message', message => {
     if(message.author.bot) return; // checks if message was sent by a bot
     if(!message.content.startsWith(prefix)) return;//makes so that user needs prefix
 
-    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [aethFile], embed: commander.aetheflead })
+    if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })
     
     else if ( msg.startsWith(prefix+'scipio')) {
         message.channel.send('scipio', {
