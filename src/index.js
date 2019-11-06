@@ -6,12 +6,12 @@ require('dotenv').config();
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-//commander commands
-const commanderCommands = require('./commands/commander')
-
 //env vars 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV
+
+//commander commands
+const commanderCommands = require('./commands/commander')
 
 //testing will display in code land and production will display ready for action
 client.on('ready', () => {

@@ -19,7 +19,9 @@ module.exports = {
         if(message.author.bot) return; // checks if message was sent by a bot
         if(!message.content.startsWith(prefix)) return; //makes so that user needs prefix
     
-        if ( msg.startsWith(prefix+'aethe' || msg.startsWith(prefix+'athe'))) message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })  
+        if ( (msg.startsWith(prefix+'aethe') || msg.startsWith(prefix+'athe'))) {
+            message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })  
+        }
         else if ( msg.startsWith(prefix+'scipio')) {
             message.channel.send({ files: [file.scipioFile], embed: commander.Scipio })
         }
