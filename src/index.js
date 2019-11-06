@@ -10,6 +10,8 @@ const file = require('./commanderfile.js')
 
 //prefix = !
 const { prefix } = require('./config.json')
+const errMessage = `Sorry maybe you spell the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
+const help =  `To use me please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
 
 //env vars 
 const BOT_TOKEN = process.env.BOT_TOKEN;
@@ -26,7 +28,7 @@ client.on('ready', () => {
         client.user.setActivity(`Ready for Action`)
     }else{
         console.log('in development')
-        client.user.setActivity('In code land')
+        client.user.setActivity('Under Development')
     }
 })
 //commands for bot sends name of message and image
@@ -118,10 +120,10 @@ client.on('message', message => {
     else if ( msg.startsWith(prefix+'beli')) {
         message.channel.send({ files: [file.beli1File], embed:commander.beli1 })
     }
-    else if ( (msg.startsWith(prefix+'bei') && msg.endsWith('cav'))||(msg.startsWith(prefix+'bai'&& msg.endsWith('cav'))))  {
+    else if ( (msg.startsWith(prefix+'bei') && msg.endsWith('cav')) || (msg.startsWith(prefix+'bai'&& msg.endsWith('cav'))))  {
         message.channel.send({ files: [file.bei2File], embed:commander.bei2 })
     }
-    else if ( (msg.startsWith(prefix+'bei'))||(msg.startsWith(prefix+'bai'))) {
+    else if ( (msg.startsWith(prefix+'bei') )|| (msg.startsWith(prefix+'bai'))) {
         message.channel.send({ files: [file.bei1File], embed:commander.bei1 }) 
     }
     else if ( msg.startsWith(prefix+'her') && msg.endsWith('nuke'))  {
@@ -202,7 +204,10 @@ client.on('message', message => {
     else if ( msg.startsWith(prefix+'mina')) {
         message.channel.send({ files: [file.mina1File], embed:commander.mina1 })
     }
-    else message.channel.send('sorry maybe you spell it wrong try again 😉 ')
+    else if ( msg.startsWith(prefix+'help')) {
+        message.channel.send(`${help}`)
+    }
+    else message.channel.send(`${errMessage}`)
 })
 
 

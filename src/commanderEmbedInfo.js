@@ -67,12 +67,12 @@ const saladin = {
 };
 const constine = {
 	color: gold,
-	title: ` constantine ${card}`,
+	title: ` Constantine ${card}`,
 	author: {
-		name: 'constantine',
+		name: 'Constantine',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/bc/Constantine_I.png/revision/latest?cb=20190217114020',
     },
-    description: 'constantine can do this....',
+    description: 'Constantine can do this....',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/bc/Constantine_I.png/revision/latest?cb=20190217114020'
     },
@@ -82,12 +82,12 @@ const constine = {
 };
 const lohar = {
 	color: purple,
-	title: ` lohar ${card}`,
+	title: ` Lohar ${card}`,
 	author: {
-		name: 'lohar',
+		name: 'Lohar',
 		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1',
     },
-    description: 'lohar can do this....',
+    description: 'Lohar can do this....',
     thumbnail: {
         url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1'
     },
