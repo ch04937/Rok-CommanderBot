@@ -204,7 +204,7 @@ client.on('message', message => {
     else if ( msg.startsWith(prefix+'mina')) {
         message.channel.send({ files: [file.mina1File], embed:commander.mina1 })
     }
-    else if ( msg.startsWith(prefix+'help')) {
+    else if ( msg.startsWith(prefix+'bot')) {
         message.channel.send(`${help}`)
     }
     else message.channel.send(`${errMessage}`)
