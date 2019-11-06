@@ -1,4 +1,4 @@
-
+// ⇄
 const gold = 0xffd700
 const purple = 0xFF33E9
 const green = 0x27BE52
@@ -19,6 +19,9 @@ const aetheflead = {
 	image: {
             url: 'attachment://atheflead1.PNG',
         },
+    footer: {
+        text: ''
+    }
 };
 const Scipio = {
 	color: purple,
@@ -87,7 +90,7 @@ const lohar = {
 		name: 'Lohar',
 		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1',
     },
-    description: 'Lohar can do this....',
+    description: 'Lohar is the king at hunting barbarians and other nuetral forces and should be used for that! and only that!',
     thumbnail: {
         url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1'
     },
