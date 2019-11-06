@@ -4,8 +4,8 @@ const errMessage = `Sorry maybe you spell the commander name wrong. Or we havent
 const tutorial =  `To use me please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
 const test = `testing handler`
 
-const file = require('./commanderfile') //commander asset files
-const commander = require('./commanderEmbedInfo') //commander embet info/data
+const file = require('./commanderProfiles/commanderfile') //commander asset files
+const commander = require('./commanderProfiles/commanderEmbedInfo') //commander embet info/data
 
 
 
