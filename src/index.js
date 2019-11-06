@@ -11,7 +11,7 @@ const file = require('./commanderfile.js')
 //prefix = !
 const { prefix } = require('./config.json')
 const errMessage = `Sorry maybe you spell the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
-const help =  `To use me please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
+const tutorial =  `To use me please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
 
 //env vars 
 const BOT_TOKEN = process.env.BOT_TOKEN;
@@ -205,7 +205,7 @@ client.on('message', message => {
         message.channel.send({ files: [file.mina1File], embed:commander.mina1 })
     }
     else if ( msg.startsWith(prefix+'bot')) {
-        message.channel.send(`${help}`)
+        message.channel.send(`${tutorial}`)
     }
     else message.channel.send(`${errMessage}`)
 })
