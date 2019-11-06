@@ -1,5 +1,5 @@
 const { prefix, sufix } = require('../config.json')
-const errMessage = `Sorry maybe you spell the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
+const errMessage = `Sorry maybe you spelled the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
 const tutorial =  `To use this bot please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
 const test = `testing handler`
 
