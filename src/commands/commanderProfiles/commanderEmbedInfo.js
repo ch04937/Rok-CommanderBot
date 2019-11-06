@@ -19,9 +19,6 @@ const aetheflead = {
 	image: {
             url: 'attachment://atheflead1.PNG',
         },
-    footer: {
-        text: ''
-    }
 };
 const Scipio = {
 	color: purple,
