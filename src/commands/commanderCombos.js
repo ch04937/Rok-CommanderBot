@@ -13,9 +13,10 @@ module.exports = {
         const msg = message.content.toLowerCase()
         if(message.author.bot) return; // checks if message was sent by a bot
         if(!message.content.startsWith(prefix)) return; //makes so that user needs prefix
+        
     
-        if ( (msg.startsWith(prefix+'aethe'&& msg.endsWith(sufix)) && msg.endsWith(sufix))) {
-            message.channel.send( { embed: combo.aetheflead})  
+        if ( (msg.startsWith(prefix+'aethe' && msg.endsWith(sufix)))) {
+            message.channel.send( `on combo`, { embed: combo.aetheflead})  
         }
         else if ( msg.startsWith(prefix+'scipio')&& msg.endsWith(sufix)) {
             message.channel.send({ embed: combo.Scipio })

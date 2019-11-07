@@ -1,5 +1,5 @@
 
-const { prefix } = require('../config.json')
+const { prefix, sufix } = require('../config.json')
 const errMessage = `Sorry maybe you spelled the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
 const tutorial =  `To use this bot please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
 const test = `testing handler`
@@ -18,9 +18,10 @@ module.exports = {
         const msg = message.content.toLowerCase()
         if(message.author.bot) return; // checks if message was sent by a bot
         if(!message.content.startsWith(prefix)) return; //makes so that user needs prefix
+        if(message.content.endsWith(sufix)) return;
     
         if ( (msg.startsWith(prefix+'aethe') || msg.startsWith(prefix+'athe'))) {
-            message.channel.send({ files: [file.aethFile], embed: commander.aetheflead })  
+            message.channel.send(`on combo` ,{ files: [file.aethFile], embed: commander.aetheflead })  
         }
         else if ( msg.startsWith(prefix+'scipio')) {
             message.channel.send({ files: [file.scipioFile], embed: commander.Scipio })
