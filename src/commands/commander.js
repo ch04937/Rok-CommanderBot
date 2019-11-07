@@ -1,7 +1,7 @@
 
 const { prefix, sufix } = require('../config.json')
 const errMessage = `Sorry maybe you spelled the commander name wrong. Or we havent updated that command yet! If you need help @silent hero or @vert for assistance`
-const tutorial =  `To use this bot please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead`
+const tutorial =  `To use this bot please use the exclamation the name of the commander. To make it easier you could also say the first 4 letters instead. To hear Sun Tzu quotes use the command &wise`
 const test = `testing handler`
 
 const file = require('./commanderProfiles/commanderfile') //commander asset files

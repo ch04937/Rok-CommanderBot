@@ -34,7 +34,6 @@ client.on('message', (message) => {
     commanderCommands.handler(message);
 })  
 client.on('message', (message) => {
-    if(message.author.bot) return; // checks if message was sent by a bot
     sunQoute.handler(message)
 })
 
