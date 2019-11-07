@@ -10,10 +10,8 @@ const client = new Discord.Client();
 const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV
 
-//commander commands
+//commander commands and combos w/t
 const commanderCommands = require('./commands/commander')
-//commander combos
-const commanderCombos = require('./commands/commanderCombos')
 
 //testing will display in code land and production will display ready for action
 client.on('ready', () => {
@@ -27,14 +25,9 @@ client.on('ready', () => {
     }
 })
 
-// //who it pairs well with 
-// client.on('message', (message) => {
-//     commanderCombos.handler(message);
-// })
-//talent trees build 
+//talent trees build and its pairs
 client.on('message', (message) => {
     commanderCommands.handler(message);
-    // commanderCombos.handler(message);
 })  
 
 client.login(BOT_TOKEN)
