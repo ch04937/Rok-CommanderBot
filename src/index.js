@@ -15,6 +15,7 @@ const commanderCommands = require('./commands/commander');
 
 //pratice fortune
 const sunQoute = require('./commands/sunQoute')
+const ball = require('./commands/eightBall')
 
 
 //testing will display in code land and production will display ready for action
@@ -33,8 +34,12 @@ client.on('ready', () => {
 client.on('message', (message) => {
     commanderCommands.handler(message);
 })  
+//sun Tzu's qoutes
 client.on('message', (message) => {
     sunQoute.handler(message)
+})
+client.on('message', (message) => {
+    ball.handler(message)
 })
 
 client.login(BOT_TOKEN)
