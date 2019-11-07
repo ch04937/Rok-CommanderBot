@@ -1,4 +1,5 @@
 {
 	"prefix": "!",
-	"sufix":"combo"
+	"sufix":"combo",
+	"quote":"&"
 }

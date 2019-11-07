@@ -11,7 +11,11 @@ const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV
 
 //commander commands and combos w/t
-const commanderCommands = require('./commands/commander')
+const commanderCommands = require('./commands/commander');
+
+//pratice fortune
+const sunQoute = require('./commands/sunQoute')
+
 
 //testing will display in code land and production will display ready for action
 client.on('ready', () => {
@@ -29,5 +33,9 @@ client.on('ready', () => {
 client.on('message', (message) => {
     commanderCommands.handler(message);
 })  
+client.on('message', (message) => {
+    if(message.author.bot) return; // checks if message was sent by a bot
+    sunQoute.handler(message)
+})
 
 client.login(BOT_TOKEN)
