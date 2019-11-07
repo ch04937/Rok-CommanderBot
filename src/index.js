@@ -27,14 +27,14 @@ client.on('ready', () => {
     }
 })
 
+// //who it pairs well with 
+// client.on('message', (message) => {
+//     commanderCombos.handler(message);
+// })
 //talent trees build 
 client.on('message', (message) => {
     commanderCommands.handler(message);
     // commanderCombos.handler(message);
 })  
-//who it pairs well with 
-// client.on('message', (message) => {
-//     commanderCombos.handler(message);
-// })
 
 client.login(BOT_TOKEN)

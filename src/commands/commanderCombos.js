@@ -11,7 +11,7 @@ module.exports = {
     description: 'this if for all the commanders that go well together who should be main and or secondary commander',
     handler: ('message', message => {
         const msg = message.content.toLowerCase()
-        if(message.author.bot) return; // checks if message was sent by a bot
+        if(message.author.type === 'bot') return; // checks if message was sent by a bot
         if(!message.content.startsWith(prefix)) return; //makes so that user needs prefix
         
     
