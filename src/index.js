@@ -15,7 +15,9 @@ const commanderCommands = require('./commands/commander');
 
 //pratice fortune
 const sunQoute = require('./commands/sunQoute')
-const ball = require('./commands/eightBall')
+const ball = require('./commands/eightBall') //magic 8 ball questions
+const upgrade = require('./commands/upgrade') //upgrade for buildings
+const miscellaneous = require('./commands/miscellaneous') //upgrade for buildings
 
 
 //testing will display in code land and production will display ready for action
@@ -40,6 +42,12 @@ client.on('message', (message) => {
 })
 client.on('message', (message) => {
     ball.handler(message)
+})
+client.on('message', (message) => {
+    upgrade.handler(message)
+})
+client.on('message', (message) => {
+    miscellaneous.handler(message)
 })
 
 client.login(BOT_TOKEN)

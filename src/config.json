@@ -2,5 +2,6 @@
 	"prefix": "!",
 	"sufix":"combo",
 	"quote":"&",
-	"ball": "?"
+	"ball": "?",
+	"upgrade": "!upgrade"
 }
