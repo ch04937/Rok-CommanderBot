@@ -10,6 +10,7 @@ module.exports = {
     name: 'commanders',
     description: 'Give a commander name and get a picture back that will give the optimal ways to level up that commander',
     //commands for bot sends name of message and image
+    triggers: [`${prefix}`],
     handler: ('message', message => {
         // case sensitive words
         const msg = message.content.toLowerCase()
