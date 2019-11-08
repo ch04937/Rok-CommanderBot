@@ -12,6 +12,10 @@ let ver = process.env.NODE_ENV
 
 //commander commands and combos w/t
 const commanderCommands = require('./commands/commander');
+const sunQoute = require('./commands/sunQoute')
+const ball = require('./commands/eightBall') //magic 8 ball questions
+const upgrade = require('./commands/upgrade') //upgrade for buildings
+const miscellaneous = require('./commands/miscellaneous') //upgrade for buildings
 
 //all bot commands
 const commands = require('./commands')
@@ -30,8 +34,20 @@ client.on('ready', () => {
 
 //talent trees build and its pairs
 client.on('message', (message) => {
-    commands.handler( message);
+    commands.handler(command, message);
 })  
-
+//sun Tzu's qoutes
+client.on('message', (message) => {
+    sunQoute.handler(message)
+})
+client.on('message', (message) => {
+    ball.handler(message)
+})
+client.on('message', (message) => {
+    upgrade.handler(message)
+})
+client.on('message', (message) => {
+    miscellaneous.handler(message)
+})
 
 client.login(BOT_TOKEN)
