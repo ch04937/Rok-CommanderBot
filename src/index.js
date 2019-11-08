@@ -33,9 +33,9 @@ client.on('ready', () => {
 })
 
 //talent trees build and its pairs
-client.on('message', (message) => {
-    commands.handler(command, message);
-})  
+// client.on('message', (message) => {
+//     commands.handler(command, message);
+// })  
 //sun Tzu's qoutes
 client.on('message', (message) => {
     sunQoute.handler(message)
