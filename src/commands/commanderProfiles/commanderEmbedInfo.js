@@ -1,4 +1,6 @@
 // ⇄
+const sunTzu = require('sun-tzu-quotes')
+
 const gold = 0xffd700
 const purple = 0xFF33E9
 const green = 0x27BE52
@@ -845,6 +847,18 @@ const mina3 = {
             url: 'attachment://minimoto3.PNG',
         },
 };
+const sunTzuQoute = {
+    color: purple,
+	title: ` Sun Tzu ${card}`,
+	author: {
+		name: 'Sun Tzu',
+		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero3-1.png?fit=600%2C650&ssl=1',
+    },
+    description: sunTzu(),
+    thumbnail: {
+        url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero3-1.png?fit=600%2C650&ssl=1'
+    },
+};
 
 
 module.exports = {
@@ -904,5 +918,5 @@ module.exports = {
     mina1,
     mina2,
     mina3,
-
+    sunTzuQoute
 }
