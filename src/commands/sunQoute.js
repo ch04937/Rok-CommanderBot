@@ -4,7 +4,7 @@ const {quote} = require('../config.json')
 
 module.exports = {
     name: 'sun tzu quotes',
-    triggers: [`${quote}wise`],
+    triggers: ['wise'],
     descrition: 'get a famous quote fom sun tzu',
     handler: (message) => {
         if(message.author.bot) return; // checks if message was sent by a bot

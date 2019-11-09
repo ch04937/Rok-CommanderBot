@@ -1,6 +1,4 @@
 
-const {ball} = require('../config.json')
-
 const answers = [
     'It is certain',
     'It is decidedly so',
@@ -26,13 +24,10 @@ const answers = [
   
   module.exports = {
     name: '8 Ball',
-    triggers: [`${ball}ball`],
+    triggers: [`ball`, '8ball'],
     description: 'Get a prediction for a yes or no question.',
     handler: (message) => {
         const answer = answers[Math.floor(Math.random() * answers.length)];
-        
-        if(message.author.bot) return; // checks if message was sent by a bot
-        if(!message.content.startsWith(ball)) return; //makes so that user needs prefix
         return message.channel.send(`${message.author} ${answer} 🎱`);
     }
   };

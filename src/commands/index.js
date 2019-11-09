@@ -1,34 +1,37 @@
+// const fortune = require('./fortune');
+// const eightBall = require('./eightBall');
+// // const poll = require('./poll');
 
-// const commander = require('./commander')
-// const eightBall = require('./eightBall')
-// const sunTzu = require('./sunQoute')
-// const miscellaneous = require('./miscellaneous')
+const commander = require('./commander')
+const eightBall = require('./eightBall')
+const sunTzu = require('./sunQoute')
 
-// let descriptions = '';
-// const commands = [
-//   commander,
-//   eightBall,
-//   sunTzu,
-//   miscellaneous
-// ].reduce((all, cmd) => {
-//   cmd.triggers.forEach(trigger => all[trigger] = cmd.handler);
-//   descriptions += `**${cmd.name}** - ${cmd.description}
-// Usage: ${cmd.triggers.map(t => '!' + t).join(' or ')} ${cmd.example || ''}
+let descriptions = '';
+const commands = [
+  commander,
+  eightBall,
+  sunTzu
+]
+.reduce((all, cmd) => {
+  cmd.triggers.forEach(trigger => all[trigger] = cmd.handler);
+  descriptions += `**${cmd.name}** - ${cmd.description}
+Usage: ${cmd.triggers.map(t => '!' + t).join(' or ')} ${cmd.example || ''}
 
-// `;
-//   return all;
-// }, {});
+`;
+  return all;
+}, {});
 
-// const allCommands = (message) => {
-//   return message.channel.send(descriptions);
-// };
+const allCommands = (message) => {
+  return message.channel.send(descriptions);
+};
 
-// commands['commands'] = allCommands;
-// commands['help'] = allCommands;
+commands['commands'] = allCommands;
+commands['bot'] = allCommands;
 
-// module.exports = {
-//   handler: (message) => {
-//         console.log('testing')
-//         return message.channel.send(commands);
-//     }
-// };
+module.exports = {
+  handle: (command, message) => {
+    if (command && commands[command]) {
+      commands[command](message);
+    }
+  }
+};

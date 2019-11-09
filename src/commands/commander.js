@@ -1,16 +1,37 @@
 
-const { prefix, sufix } = require('../config.json')
+const { sufix } = require('../config.json')
+const prefix = '!tree '
+
+const errMessage = `Sorry maybe you spelled the command wrong. Or we havent updated that command yet! If you need help with the command run '!bot'. If you need further assistance @silent hero or @vert for assistance`
+
 
 const file = require('./commanderProfiles/commanderfile') //commander asset files
 const commander = require('./commanderProfiles/commanderEmbedInfo') //commander embet info/data
 const combo = require('./commanderProfiles/commanderCombo') //combo embet info/data
-
+// const name = [
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+//     '',
+// ]
 
 module.exports = {
     name: 'commanders',
-    description: 'Give a commander name and get a picture back that will give the optimal ways to level up that commander',
+    description: 'Gives optimal ways to play a specific commander. Talent trees, and best pairings.',
     //commands for bot sends name of message and image
-    triggers: [`${prefix}`],
+    triggers: ['tree'],
     handler: ('message', message => {
         // case sensitive words
         const msg = message.content.toLowerCase()
@@ -114,10 +135,10 @@ module.exports = {
         // }
 
         //runs after combo this will give options
-        if ( (msg.startsWith(prefix+'aethe') || msg.startsWith(prefix+'athe'))) {
-            msgs.send({files: [file.aethFile], })  
+        if ( msg.startsWith('!aethe')) {
+            msgs.send({files: [file.aethFile], embed:commander.aetheflead })  
         }
-        else if ( msg.startsWith(prefix+'scipio')) {
+        else if ( msg.startsWith(prefix+'scip')) {
             msgs.send({ files: [file.scipioFile], embed: commander.Scipio })
         }
         else if ( msg.startsWith(prefix+'han')) {
@@ -282,6 +303,8 @@ module.exports = {
         else if ( msg.startsWith(prefix+'mina')) {
             msgs.send({ files: [file.mina1File], embed:commander.mina1 })
         }
+        else msgs.send(`${errMessage}`)   
+
     })
 
 }

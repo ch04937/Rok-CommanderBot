@@ -1,7 +1,4 @@
 {
 	"prefix": "!",
-	"sufix":"combo",
-	"quote":"&",
-	"ball": "?",
-	"upgrade": "!upgrade"
+	"sufix":"combo"
 }
