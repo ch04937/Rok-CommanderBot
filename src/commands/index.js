@@ -2,12 +2,14 @@
 const commander = require('./commander')
 const eightBall = require('./eightBall')
 const sunTzu = require('./sunQoute')
+const upgrade = require('./upgrade')
 
 let descriptions = '';
 const commands = [
   commander,
   eightBall,
-  sunTzu
+  sunTzu,
+  upgrade
 ]
 .reduce((all, cmd) => {
   cmd.triggers.forEach(trigger => all[trigger] = cmd.handler);
