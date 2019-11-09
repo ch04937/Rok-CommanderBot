@@ -849,7 +849,7 @@ const mina3 = {
 };
 const sunTzuQoute = {
     color: purple,
-	title: ` Sun Tzu ${card}`,
+	title: `The wise listen to me`,
 	author: {
 		name: 'Sun Tzu',
 		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero3-1.png?fit=600%2C650&ssl=1',
