@@ -267,7 +267,7 @@ const ceaser1 = {
 		name: 'Julius Ceaser',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1',
     },
-    description: 'Julius Ceaser can do this.... if you are are looking for Julius all in one build try !jul',
+    description: 'Julius Ceaser can do this.... if you are are looking for Julius all in one build try !tree jul',
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1'
     },
@@ -282,7 +282,7 @@ const ceaser2 = {
 		name: 'Julius Ceaser',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1',
     },
-    description: 'Julius Ceaser can do this.... if you are are looking for Julius nuker/skill try !jul nuke',
+    description: 'Julius Ceaser can do this.... if you are are looking for Julius nuker/skill try !tree jul nuke',
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1'
     },
@@ -312,7 +312,7 @@ const fred2 = {
 		name: 'Frederick',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601',
     },
-    description: 'Frederick can do this.... if you are looking for more a nuker build try !fred nuke',
+    description: 'Frederick can do this.... if you are looking for more a nuker build try !tree fred nuke',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601'
     },
@@ -327,7 +327,7 @@ const fred1 = {
 		name: 'Frederick',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601',
     },
-    description: 'Frederick can do this.... if you are looking for more mix build try !fred',
+    description: 'Frederick can do this.... if you are looking for more mix build try !tree fred',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601'
     },
@@ -342,7 +342,7 @@ const elcid1 = {
 		name: 'El Cid',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512',
     },
-    description: 'El Cid can do this.... if you are looking for a nuke build try !el cid',
+    description: 'El Cid can do this.... if you are looking for a nuke build try !tree el cid',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512'
     },
@@ -357,7 +357,7 @@ const elcid2 = {
 		name: 'El Cid',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512',
     },
-    description: 'El Cid can do this.... if you are looking for an archer build try !el arch',
+    description: 'El Cid can do this.... if you are looking for an archer build try !tree el arch',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512'
     },
@@ -372,7 +372,7 @@ const mehmed1 = {
 		name: 'Mehmed',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048',
     },
-    description: 'Mehmed can do this.... if you are looking for a pvp build try !meh',
+    description: 'Mehmed can do this.... if you are looking for a pvp build try !tree meh',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048'
     },
@@ -387,7 +387,7 @@ const mehmed2 = {
 		name: 'Mehmed',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048',
     },
-    description: 'Mehmed can do this.... if you are looking for rally build try !meh rally',
+    description: 'Mehmed can do this.... if you are looking for rally build try !tree meh rally',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048'
     },
@@ -402,7 +402,7 @@ const beli1 = {
 		name: 'Belisarious',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119',
     },
-    description: 'Belisarious can do this.... if you are looking for a cavalry build try !beli cav',
+    description: 'Belisarious can do this.... if you are looking for a cavalry build try !tree beli cav',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119'
     },
@@ -417,7 +417,7 @@ const beli2 = {
 		name: 'Belisarius',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119',
     },
-    description: 'Belisarius can do this.... if you are looking for mobility build try !beli' ,
+    description: 'Belisarius can do this.... if you are looking for mobility build try !tree beli' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119'
     },
@@ -432,7 +432,7 @@ const bei1 = {
 		name: 'Beibars',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500',
     },
-    description: 'Beibars can do this.... if you are looking for a cavalry build try !bei cav',
+    description: 'Beibars can do this.... if you are looking for a cavalry build try !tree bei cav',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500'
     },
@@ -447,7 +447,7 @@ const bei2 = {
 		name: 'Beibars',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500',
     },
-    description: 'Beibars can do this.... if you are looking for skill/nuke build try !bei' ,
+    description: 'Beibars can do this.... if you are looking for skill/nuke build try !tree bei' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500'
     },
@@ -462,7 +462,7 @@ const herman2 = {
 		name: 'Hermann',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1',
     },
-    description: 'Hermann can do this.... if you are looking for archer build try !her arch. If you are looking for nuker build try !her nuke' ,
+    description: 'Hermann can do this.... if you are looking for archer build try !tree her arch. If you are looking for nuker build try !tree her nuke' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1'
     },
@@ -477,7 +477,7 @@ const herman3 = {
 		name: 'Hermann',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1',
     },
-    description: 'Hermann can do this.... if you are looking for a garrison build try !her. If you are looking for a nuker build try !her nuke',
+    description: 'Hermann can do this.... if you are looking for a garrison build try !tree her. If you are looking for a nuker build try !tree her nuke',
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1'
     },
@@ -492,7 +492,7 @@ const herman1 = {
 		name: 'Hermann',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1',
     },
-    description: 'Hermann can do this.... if you are looking for garison build try !her. If you are looking for an archer build try !her arch' ,
+    description: 'Hermann can do this.... if you are looking for garison build try !tree her. If you are looking for an archer build try !tree her arch' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1'
     },
@@ -507,7 +507,7 @@ const eulji2 = {
 		name: 'Eulji Mundeok',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1',
     },
-    description: 'Eulji Mundeok can do this.... if you are looking for garrison build try !eul garri. If you are looking for infantry build try !eul infantry' ,
+    description: 'Eulji Mundeok can do this.... if you are looking for garrison build try !tree eul garri. If you are looking for infantry build try !tree eul infantry' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1'
     },
@@ -522,7 +522,7 @@ const eulji3 = {
 		name: 'Eulji Mundeok',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1',
     },
-    description: 'Eulji Mundeok can do this.... if you are looking for a garrison build try !eul garri. If you are looking for a mix build try !eul',
+    description: 'Eulji Mundeok can do this.... if you are looking for a garrison build try !tree eul garri. If you are looking for a mix build try !tree eul',
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1'
     },
@@ -537,7 +537,7 @@ const eulji1 = {
 		name: 'Eulji Mundeok',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1',
     },
-    description: 'Eulji Mundeok can do this.... if you are looking for mixed build try !eul. If you are looking for an infantry build try !eul infantry' ,
+    description: 'Eulji Mundeok can do this.... if you are looking for mixed build try !tree eul. If you are looking for an infantry build try !tree eul infantry' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1'
     },
@@ -552,7 +552,7 @@ const char2 = {
 		name: 'Charles Martel',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815',
     },
-    description: 'Charles Martel can do this.... if you are looking for garrison build try !char .If you are looking for mix build try !char mix' ,
+    description: 'Charles Martel can do this.... if you are looking for garrison build try !tree char .If you are looking for mix build try !tree char mix' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815'
     },
@@ -567,7 +567,7 @@ const char3 = {
 		name: 'Charles Martel',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815',
     },
-    description: 'Charles Martel can do this.... if you are looking for a garrison build try !char .If you are looking for a infantry build try !char infantry',
+    description: 'Charles Martel can do this.... if you are looking for a garrison build try !tree char .If you are looking for a infantry build try !tree char infantry',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815'
     },
@@ -582,7 +582,7 @@ const char1 = {
 		name: 'Charles Martel',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815',
     },
-    description: 'Charles Martel can do this.... if you are looking for mixed build try !char mix. If you are looking for an infantry build try !char infantry' ,
+    description: 'Charles Martel can do this.... if you are looking for mixed build try !tree char mix. If you are looking for an infantry build try !tree char infantry' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815'
     },
@@ -597,7 +597,7 @@ const cao1 = {
 		name: 'Cao Cao',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543',
     },
-    description: 'Cao Cao can do this.... if you are looking for a mobility build try !cao mobility ',
+    description: 'Cao Cao can do this.... if you are looking for a mobility build try !tree cao mobility ',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543'
     },
@@ -612,7 +612,7 @@ const cao2 = {
 		name: 'Cao Cao',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543',
     },
-    description: 'Cao Cao can do this.... if you are looking for cavalry build try !cao .' ,
+    description: 'Cao Cao can do this.... if you are looking for cavalry build try !tree cao .' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543'
     },
@@ -627,7 +627,7 @@ const yi1 = {
 		name: 'Yi Seong-Gye',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706',
     },
-    description: 'Yi Seong-Gye can do this.... if you are looking for archer build try !yi arch. If you are looking for an nuker build try !yi nuke' ,
+    description: 'Yi Seong-Gye can do this.... if you are looking for archer build try !tree yi arch. If you are looking for an nuker build try !tree yi nuke' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706'
     },
@@ -642,7 +642,7 @@ const yi2 = {
 		name: 'Yi Seong-Gye',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706',
     },
-    description: 'Yi Seong-Gye can do this.... if you are looking for a garrinson build try !yi . If you are looking for a nuke build try !yi nuke ',
+    description: 'Yi Seong-Gye can do this.... if you are looking for a garrinson build try !tree yi . If you are looking for a nuke build try !tree yi nuke ',
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706'
     },
@@ -657,7 +657,7 @@ const yi3 = {
 		name: 'Yi Seong-Gye',
 		icon_url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706',
     },
-    description: 'Yi Seong-Gye can do this.... if you are looking for garrison build try !yi . If you are looking for archer build try !yi arch' ,
+    description: 'Yi Seong-Gye can do this.... if you are looking for garrison build try !tree yi . If you are looking for archer build try !tree yi arch' ,
     thumbnail: {
         url: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706'
     },
@@ -672,7 +672,7 @@ const rich1 = {
 		name: 'Richard',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1',
     },
-    description: 'Richard can do this.... if you are looking for mix build try !rich mix. If you are looking for an infantry build try !rich infantry' ,
+    description: 'Richard can do this.... if you are looking for mix build try !tree rich mix. If you are looking for an infantry build try !tree rich infantry' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1'
     },
@@ -687,7 +687,7 @@ const rich2 = {
 		name: 'Richard',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1',
     },
-    description: 'Richard can do this.... if you are looking for a garrinson build try !rich . If you are looking for a infantry build try !rich infantry ',
+    description: 'Richard can do this.... if you are looking for a garrinson build try !tree rich . If you are looking for a infantry build try !tree rich infantry ',
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1'
     },
@@ -702,7 +702,7 @@ const rich3 = {
 		name: 'Richard',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1',
     },
-    description: 'Richard can do this.... if you are looking for garrison build try !rich . If you are looking for infantry build try !rich infantry' ,
+    description: 'Richard can do this.... if you are looking for garrison build try !tree rich . If you are looking for infantry build try !tree rich infantry' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1'
     },
@@ -717,7 +717,7 @@ const kusu1 = {
 		name: 'Kusunoki',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1',
     },
-    description: 'Kusunoki can do this.... if you are looking for nuke build try !kusu nuke. If you are looking for an garrison build try !kusu garri' ,
+    description: 'Kusunoki can do this.... if you are looking for nuke build try !tree kusu nuke. If you are looking for an garrison build try !tree kusu garri' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1'
     },
@@ -732,7 +732,7 @@ const kusu2 = {
 		name: 'Kusunoki',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1',
     },
-    description: 'Kusunoki can do this.... if you are looking for a archer build try !kusu . If you are looking for a garrison build try !kusu garri ',
+    description: 'Kusunoki can do this.... if you are looking for a archer build try !tree kusu . If you are looking for a garrison build try !tree kusu garri ',
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1'
     },
@@ -747,7 +747,7 @@ const kusu3 = {
 		name: 'Kusunoki',
 		icon_url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1',
     },
-    description: 'Kusunoki can do this.... if you are looking for archer build try !kusu . If you are looking for nuke build try !kusu nuke' ,
+    description: 'Kusunoki can do this.... if you are looking for archer build try !tree kusu . If you are looking for nuke build try !tree kusu nuke' ,
     thumbnail: {
         url: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1'
     },
@@ -762,7 +762,7 @@ const pela1 = {
 		name: 'Pelagius ',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1',
     },
-    description: 'Pelagius  can do this.... if you are looking for nuke build try !pela nuke. If you are looking for an garrison build try !pela garri' ,
+    description: 'Pelagius  can do this.... if you are looking for nuke build try !tree pela nuke. If you are looking for an garrison build try !tree pela garri' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1'
     },
@@ -777,7 +777,7 @@ const pela2 = {
 		name: 'Pelagius ',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1',
     },
-    description: 'Pelagius  can do this.... if you are looking for a cavalry build try !pela . If you are looking for a nuke build try !pela nuke ',
+    description: 'Pelagius  can do this.... if you are looking for a cavalry build try !tree pela . If you are looking for a nuke build try !tree pela nuke ',
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1'
     },
@@ -792,7 +792,7 @@ const pela3 = {
 		name: 'Pelagius ',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1',
     },
-    description: 'Pelagius  can do this.... if you are looking for cavalry build try !pela . If you are looking for garrison build try !pela garri' ,
+    description: 'Pelagius  can do this.... if you are looking for cavalry build try !tree pela . If you are looking for garrison build try !tree pela garri' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1'
     },
@@ -807,7 +807,7 @@ const mina1 = {
 		name: 'Minamoto no Yoshitsune',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1',
     },
-    description: 'Minamoto no Yoshitsune can do this.... if you are looking for cavalry build try !mina cav. If you are looking for an rally build try !mina rally' ,
+    description: 'Minamoto no Yoshitsune can do this.... if you are looking for cavalry build try !tree mina cav. If you are looking for an rally build try !tree mina rally' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1'
     },
@@ -822,7 +822,7 @@ const mina2 = {
 		name: 'Minamoto no Yoshitsune',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1',
     },
-    description: 'Minamoto no Yoshitsune can do this.... if you are looking for a cavalry build try !mina cav . If you are looking for a nuke build try !mina ',
+    description: 'Minamoto no Yoshitsune can do this.... if you are looking for a cavalry build try !tree mina cav . If you are looking for a nuke build try !tree mina ',
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1'
     },
@@ -837,7 +837,7 @@ const mina3 = {
 		name: 'Minamoto no Yoshitsune',
 		icon_url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1',
     },
-    description: 'Minamoto no Yoshitsune can do this.... if you are looking for nuke build try !mina . If you are looking for rally build try !mina rally' ,
+    description: 'Minamoto no Yoshitsune can do this.... if you are looking for nuke build try !tree mina . If you are looking for rally build try !tree mina rally' ,
     thumbnail: {
         url: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1'
     },

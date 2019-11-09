@@ -4,28 +4,9 @@ const prefix = '!tree '
 
 const errMessage = `Sorry maybe you spelled the command wrong. Or we havent updated that command yet! If you need help with the command run '!bot'. If you need further assistance @silent hero or @vert for assistance`
 
-
 const file = require('./commanderProfiles/commanderfile') //commander asset files
 const commander = require('./commanderProfiles/commanderEmbedInfo') //commander embet info/data
 const combo = require('./commanderProfiles/commanderCombo') //combo embet info/data
-// const name = [
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-//     '',
-// ]
 
 module.exports = {
     name: 'commanders',

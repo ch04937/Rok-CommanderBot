@@ -1,6 +1,3 @@
-// const fortune = require('./fortune');
-// const eightBall = require('./eightBall');
-// // const poll = require('./poll');
 
 const commander = require('./commander')
 const eightBall = require('./eightBall')
