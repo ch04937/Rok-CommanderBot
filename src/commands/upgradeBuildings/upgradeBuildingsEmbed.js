@@ -103,54 +103,6 @@ const city2 = {
         },
     ]
 };
-const city2 = {
-	color: stone,
-	title: `${city} 2 `,
-	author: {
-		name: 'City Hall level 2 The Stone Age',
-		icon_url: `${cityimg}`,
-    },
-    description: 'City Hall Level 2, You have started your journey congratulations!',
-    thumbnail: {
-        url: `${cityimg}` 
-    },
-    fields: [
-        {
-            name: 'Unlocks',
-            value: '1st Lumber Mill \nArchery Range \nScout Camp',
-            inline: true
-        },
-        {
-            name: 'Requirements',
-            value: 'Nothing',
-            inline: true
-
-        },
-        {
-            name: 'Troop Cap',
-            value: '3,000',
-            inline: true
-
-        },
-        {
-            name: 'Cost',
-            value: 'Corn: 3.5k\nWood:3.5k',
-            inline: true
-        },
-        {
-            name: 'Time',
-            value: '2 seconds',
-            inline: true
-
-        },
-        {
-            name: 'Power',
-            value: '21',
-            inline: true
-
-        },
-    ]
-};
 const city3 = {
 	color: stone,
 	title: `${city} 3 `,
