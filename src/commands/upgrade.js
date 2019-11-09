@@ -6,8 +6,8 @@ const building = require('./upgradeBuildings/upgradeBuildingsEmbed')
 
 
 module.exports = {
-    name: 'building upgrades',
-    descrition: 'getting the upgrade information for cicty halls',
+    name: 'City Hall Upgrades',
+    descrition: 'Gets information from all current city halls',
     triggers: ['city'],    
     handler: ('message', message => {
         // case sensitive words

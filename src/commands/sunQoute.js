@@ -1,9 +1,9 @@
 const sunTzu = require('sun-tzu-quotes')
 
-const {quote} = require('../config.json')
+const { quote } = require('../config.json')
 
 module.exports = {
-    name: 'sun tzu quotes',
+    name: 'Sun Tzu Quotes',
     triggers: ['wise'],
     descrition: 'get a famous quote fom sun tzu',
     handler: (message) => {
