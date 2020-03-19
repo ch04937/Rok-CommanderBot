@@ -1,9 +1,9 @@
 // getting embeds
-const building = require("./rokAssets/castleEmbed");
+const castle = require("./rokAssets/castleEmbed");
 
 module.exports = {
-	name: "City Hall Upgrades",
-	descrition: "Learn information about city/castle to level up",
+	name: "Castle Upgrades",
+	description: "Learn information about castle upgrades",
 	triggers: ["castle"],
 	handler:
 		("message",
@@ -14,11 +14,11 @@ module.exports = {
 			if (message.author.bot) return;
 			if (!message.content.startsWith(`!castle`)) return;
 			// loop through object to find key s
-			for (let i = 0; i < Object.keys(building.levels).length; i++) {
+			for (let i = 0; i < Object.keys(castle.levels).length; i++) {
 				// search for the key
 				if (msg === `!castle ${i + 1}`) {
 					//  send the values as embed
-					message.channel.send({ embed: building.levels[i + 1] });
+					message.channel.send({ embed: castle.levels[i + 1] });
 				}
 			}
 		}),

@@ -6,6 +6,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 //env vars
+
 const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV;
 
@@ -17,11 +18,23 @@ const commands = require("./commands");
 client.on("ready", () => {
 	console.log(` \n Logged in as ${client.user.tag} \n`);
 	if (ver === "production") {
-		console.log("in production");
-		client.user.setActivity(`Ready for Action`);
+		client.user.setStatus("online");
+		client.user.setPresence({
+			game: {
+				name: "In " + client.guilds.size + " Servers",
+				type: "PLAYING",
+			},
+		});
 	} else {
 		console.log("in development");
-		client.user.setActivity("Under Development");
+		client.user.setStatus("online");
+		client.user.setPresence({
+			game: {
+				name: "Doing magic in " + client.guilds.size + " Servers",
+				type: "HELPING",
+			},
+		});
+		console.log("Doing magic in " + client.guilds.size + " Server(s)");
 	}
 });
 

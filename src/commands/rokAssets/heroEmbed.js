@@ -144,6 +144,13 @@ const names = {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero17.png?fit=600%2C650&ssl=1",
 		},
+		fields: [
+			{
+				name: "Parings",
+				value:
+					"Semi Support: \nA semi support is a cross between a fighting pair and a supporting pair. It has either compromised its fighting ability to bring a debuff/disable/AOE buff into the fight, or it is sacrificing its support potential to bring a bit more damage to the table. This is done through either the commander pairing or the talent tree chosen.\n  ",
+			},
+		],
 		image: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=1024%2C577&ssl=1",

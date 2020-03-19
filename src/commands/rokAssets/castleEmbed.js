@@ -4,134 +4,117 @@ const bronze = 0xcd7f32;
 const iron = 0x9c9a99;
 const dark = 0x000000;
 const fuedalAge = 0xf66108;
-const city = "City Hall Level";
-const cityimg =
-	"https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/59/Building_City_Hall_1_5.png/revision/latest?cb=20181114154456";
+const Castle = "Castle Level";
+const Castleimg =
+	"https://vignette.wikia.nocookie.net/riseofcivilizations/images/f/fd/Building_Castle_1_5.png/revision/latest/scale-to-width-down/180?cb=20181114154437";
 
 const levels = {
 	1: {
 		color: stone,
-		title: `${city} 1 development `,
+		title: `${Castle} 1 development `,
 		author: {
-			name: "City Hall level 1 The Stone Age",
-			icon_url: `${cityimg}`,
+			name: "Castle level 1 The Stone Age",
+			icon_url: `${Castleimg}`,
 		},
 		description:
-			"City Hall Level 1, You have started your journey congratulations!",
+			"Castle Level 1, You have started your journey congratulations!",
 		thumbnail: {
-			url: `${cityimg}`,
+			url: `${Castleimg}`,
 		},
 		fields: [
 			{
-				name: "Unlocks",
-				value: "Nothing",
-				inline: true,
-			},
-			{
 				name: "Requirements",
-				value: "Nothing",
+				value: "Alliance Center Lv.1",
 				inline: true,
 			},
 			{
-				name: "Troop Cap",
-				value: "2,000",
+				name: "Rallied Army Capacity",
+				value: "25,000",
 				inline: true,
 			},
 			{
 				name: "Cost",
-				value: "Nothing",
+				value: "Corn: 200\n Wood:300\nBook of Covenant: x0",
 				inline: true,
 			},
 			{
 				name: "Time",
-				value: "Nothing",
+				value: "12s",
 				inline: true,
 			},
 			{
 				name: "Power",
-				value: "7",
+				value: "5",
 				inline: true,
 			},
 		],
 	},
-
 	2: {
 		color: stone,
-		title: `${city} 2 `,
+		title: `${Castle} 2 `,
 		author: {
-			name: "City Hall level 2 The Stone Age",
-			icon_url: `${cityimg}`,
+			name: "Castle level 2 The Stone Age",
+			icon_url: `${Castleimg}`,
 		},
 		description:
-			"City Hall Level 2, You have started your journey congratulations!",
+			"Castle Level 2, You have started your journey congratulations!",
 		thumbnail: {
-			url: `${cityimg}`,
+			url: `${Castleimg}`,
 		},
 		fields: [
 			{
-				name: "Unlocks",
-				value: "1st Lumber Mill \nArchery Range \nScout Camp",
-				inline: true,
-			},
-			{
 				name: "Requirements",
-				value: "Nothing",
+				value: "Alliance Center Lv.2",
 				inline: true,
 			},
 			{
-				name: "Troop Cap",
-				value: "3,000",
+				name: "Rallied Army Capacity",
+				value: "40,000",
 				inline: true,
 			},
 			{
 				name: "Cost",
-				value: "Corn: 3.5k\nWood: 3.5k",
+				value: "Corn: 300\nWood: 500\nBook of Covenant: x2",
 				inline: true,
 			},
 			{
 				name: "Time",
-				value: "2 seconds",
+				value: "1 min",
 				inline: true,
 			},
 			{
 				name: "Power",
-				value: "21",
+				value: "11",
 				inline: true,
 			},
 		],
 	},
-
 	3: {
 		color: stone,
-		title: `${city} 3 `,
+		title: `${Castle} 3 `,
 		author: {
-			name: "City Hall level 3 The Stone Age",
-			icon_url: `${cityimg}`,
+			name: "Castle level 3 The Stone Age",
+			icon_url: `${Castleimg}`,
 		},
 		description:
-			"City Hall Level 3, You have started your journed congratulations!",
+			"Castle Level 3, You have started your journed congratulations!",
 		thumbnail: {
-			url: `${cityimg}`,
+			url: `${Castleimg}`,
 		},
 		fields: [
 			{
-				name: "Unlocks",
-				value: "2nd Farm \nAlliance Center \n",
-				inline: true,
-			},
-			{
 				name: "Requirements",
-				value: "Wall Lv.2",
+				value: "Alliance Center Lv.3",
 				inline: true,
 			},
 			{
-				name: "Troop Cap",
-				value: "4,000",
+				name: "Rallied Army Capacity",
+				value: "60,000",
 				inline: true,
 			},
 			{
 				name: "Cost",
-				value: "Corn: 6.5k\nWood: 6.5k",
+				value: "Corn: 500\nWood: 1K\nBook of Covenant: x5",
 				inline: true,
 			},
 			{
@@ -141,1010 +124,884 @@ const levels = {
 			},
 			{
 				name: "Power",
-				value: "59",
+				value: "26",
 				inline: true,
 			},
 		],
 	},
-
 	4: {
 		color: bronze,
-		title: `${city} 3 `,
+		title: `${Castle} 4 `,
 		author: {
-			name: "City Hall level 3 The Bronze Age",
-			icon_url: `${cityimg}`,
+			name: "Castle level 3 The Bronze Age",
+			icon_url: `${Castleimg}`,
 		},
-		description:
-			"City Hall Level 3, You are officialy out of the tutorial stage! Isnt that lovely!",
+		description: "Castle Level 3",
 		thumbnail: {
-			url: `${cityimg}`,
+			url: `${Castleimg}`,
 		},
 		fields: [
 			{
-				name: "Unlocks",
-				value: "1st Quarry \nAcademy \nStable \n2nd Hospital",
-				inline: true,
-			},
-			{
 				name: "Requirements",
-				value: "Wall Lv.3",
+				value: "Alliance Center Lv.4",
 				inline: true,
 			},
 			{
-				name: "Troop Cap",
-				value: "5,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 11.8k\nWood: 11.8k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "20 minutes",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "154",
-				inline: true,
-			},
-		],
-	},
-
-	5: {
-		color: bronze,
-		title: `${city} 5 `,
-		author: {
-			name: "City Hall level 5 The Bronze Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 5, Keep pushing!",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value:
-					"2nd Lumber Mill \nShop \nSeige Workshop \n2nd March queue",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.4 \nHopital Lv.4",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "7,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 21.3k\nWood: 21.3k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "1 Hour",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "383",
-				inline: true,
-			},
-		],
-	},
-
-	6: {
-		color: stone,
-		title: `${city} 6 `,
-		author: {
-			name: "City Hall level 6 The Stone Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 6, Nothing special here keep leveling up!",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "3rd Farm \nCourier Station \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.5 \nScout Camp Lv5",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "9,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 36.3k \nWood: 36.3k \nStone:12k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "2 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "852",
-				inline: true,
-			},
-		],
-	},
-
-	7: {
-		color: stone,
-		title: `${city} 7 `,
-		author: {
-			name: "City Hall level 7 The Stone Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 7, Becareful Here! Begginers teleport is a useful tool for more info ask your Leader",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "2nd Quarry \nCastle \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.6 \nStorehouse Lv6",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "12,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 54.4k \nWood: 54.4k \nStone:19.2k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "5 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "1,847",
-				inline: true,
-			},
-		],
-	},
-
-	8: {
-		color: stone,
-		title: `${city} 8 `,
-		author: {
-			name: "City Hall level 8 The Stone Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 8, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "3rd Lumber Mill \nMonument \nTier 2 Troops",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.7 \nBarracks Lv7",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "15,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 81.8k \nWood: 81.8k \nStone: 30.8k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "10 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "3,706",
-				inline: true,
-			},
-		],
-	},
-
-	9: {
-		color: stone,
-		title: `${city} 9 `,
-		author: {
-			name: "City Hall level 9 The Stone Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 9, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Hospital \nFarm \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.8 \nBarracks Lv.8",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "19,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 122.8k \nWood: 122.8k \nStone: 49.2k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "15 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "6,504",
-				inline: true,
-			},
-		],
-	},
-
-	10: {
-		color: iron,
-		title: `${city} 10 `,
-		author: {
-			name: "City Hall level 10 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 10, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "3rd Quarry \n1st Goldmine \nTrading Post",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.9 \nBarracks Lv.9",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "23,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 184.3k \nWood: 184.3k \nStone: 78.7k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "22 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "10,933",
-				inline: true,
-			},
-		],
-	},
-
-	11: {
-		color: iron,
-		title: `${city} 11 `,
-		author: {
-			name: "City Hall level 11 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 11, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "4th Lumber Mill \n3rd March queue \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.10 \nBarracks Lv.10",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "28,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 277.5k \nWood: 277.5k \nStone: 120k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "1 Day 6 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "16,723",
-				inline: true,
-			},
-		],
-	},
-
-	12: {
-		color: iron,
-		title: `${city} 12 `,
-		author: {
-			name: "City Hall level 12 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 12, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "2nd Goldmine \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.11 \nStorehouse Lv.11",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "33,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 417.5k \nWood: 417.5k \nStone: 180k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "1 Day 16 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "24,693",
-				inline: true,
-			},
-		],
-	},
-
-	13: {
-		color: iron,
-		title: `${city} 13 `,
-		author: {
-			name: "City Hall level 13 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 13, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "4th Quarry \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.12 \nArchery Range Lv.12",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "38,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 627.5k \nWood: 627.5k \nStone: 270k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "2 Days 2 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "35,213",
-				inline: true,
-			},
-		],
-	},
-
-	14: {
-		color: iron,
-		title: `${city} 14 `,
-		author: {
-			name: "City Hall level 14 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 14, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "3rd Goldmine \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.13 \nAlliance Center Lv.13\nTrading Post Lv.13",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "44,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 942.5k \nWood: 942.5k \nStone: 405k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "2 Days 12 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "48,838",
-				inline: true,
-			},
-		],
-	},
-
-	15: {
-		color: iron,
-		title: `${city} 15 `,
-		author: {
-			name: "City Hall level 15 The Iron Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 15, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "4th Hospital \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.14 \nScout Camp Lv.14\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "50,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 1.4Mil \nWood: 1.4Mil \nStone: 607.5k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "2 Days 22 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "66,400",
-				inline: true,
-			},
-		],
-	},
-
-	16: {
-		color: dark,
-		title: `${city} 16 `,
-		author: {
-			name: "City Hall level 16 The Dark Age",
-			icon_url: `${cityimg}`,
-		},
-		description:
-			"City Hall Level 16, Tier 3 is unlocked at this Level at 21 Tier 4",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "4th Goldmine \n Tier 3 Troop",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.15 \nScout Camp Lv.15\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "57,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 2.1Mil \nWood: 2.1Mil \nStone: 912.5k",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "4 Days",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "66,400",
-				inline: true,
-			},
-		],
-	},
-
-	17: {
-		color: dark,
-		title: `${city} 17 `,
-		author: {
-			name: "City Hall level 17 The Dark Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 17, at City Hall 21 Tier 4",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "4th March queue \n",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.16 \nHospital Lv.16\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "64,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 3.2Mil \nWood: 3.2Mil \nStone: 1.4Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "4 Days 20 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "125,005",
-				inline: true,
-			},
-		],
-	},
-
-	18: {
-		color: dark,
-		title: `${city} 18 `,
-		author: {
-			name: "City Hall level 18 The Dark Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 18, at City Hall 21 Tier 4",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Nothing",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.17 \nStorehouse Lv.17\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "72,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 4.8Mil \nWood: 4.8Mil \nStone: 2.1Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "5 Days 20 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "170,590",
-				inline: true,
-			},
-		],
-	},
-
-	19: {
-		color: dark,
-		title: `${city} 19 `,
-		author: {
-			name: "City Hall level 19 The Dark Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 19, at City Hall 21 Tier 4",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Nothing",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.18 \nStable Lv.18\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "80,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 7.2Mil \nWood: 7.2Mil \nStone: 3.1Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "7 Days ",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "232,957",
-				inline: true,
-			},
-		],
-	},
-
-	20: {
-		color: dark,
-		title: `${city} 20 `,
-		author: {
-			name: "City Hall level 20 The Dark Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 20, at City Hall 21 Tier 4",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Nothing",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.19 \nAlliance Center Lv.19\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "90,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 10.8Mil \nWood: 10.8Mil \nStone: 4.7Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "8 Days 6 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "318,769",
-				inline: true,
-			},
-		],
-	},
-
-	21: {
-		color: fuedalAge,
-		title: `${city} 21 `,
-		author: {
-			name: "City Hall level 21 The Fuedal Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 21, Tier 4 Troops!",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Tier 4 Troops",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.20 \nAlliance Center Lv.20\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
+				name: "Rallied Army Capacity",
 				value: "100,000",
 				inline: true,
 			},
 			{
 				name: "Cost",
-				value: "Corn: 16.2Mil \nWood: 16.2Mil \nStone: 7Mil",
+				value: "Corn: 1k\nWood: 2k\nBook of Covenant: x8",
 				inline: true,
 			},
 			{
 				name: "Time",
-				value: "11 Days",
+				value: "16 minutes 40s",
 				inline: true,
 			},
 			{
 				name: "Power",
-				value: "442,735",
+				value: "72",
 				inline: true,
 			},
 		],
 	},
-
-	22: {
-		color: fuedalAge,
-		title: `${city} 22 `,
+	5: {
+		color: bronze,
+		title: `${Castle} 5 `,
 		author: {
-			name: "City Hall level 22 The Fuedal Age",
-			icon_url: `${cityimg}`,
+			name: "Castle level 5 The Bronze Age",
+			icon_url: `${Castleimg}`,
 		},
-		description: "City Hall Level 22, ",
+		description: "Castle Level 5, Keep pushing!",
 		thumbnail: {
-			url: `${cityimg}`,
+			url: `${Castleimg}`,
 		},
 		fields: [
 			{
-				name: "Unlocks",
-				value: "5th March Queue",
-				inline: true,
-			},
-			{
 				name: "Requirements",
-				value: "Wall Lv.21 \nAlliance Center Lv.21\n",
+				value: "Alliance Center Lv.5",
 				inline: true,
 			},
 			{
-				name: "Troop Cap",
-				value: "110,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 24.3Mil \nWood: 24.3Mil \nStone: 10.6Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "17 Days 3 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "630,860",
-				inline: true,
-			},
-		],
-	},
-
-	23: {
-		color: fuedalAge,
-		title: `${city} 23 `,
-		author: {
-			name: "City Hall level 23 The Fuedal Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 23, ",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "None",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.22 \nStorehouse Lv.22\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "120,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 36.5Mil \nWood: 36.5Mil \nStone: 15.9Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "23 Days 23 Hours",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "907,085",
-				inline: true,
-			},
-		],
-	},
-
-	24: {
-		color: fuedalAge,
-		title: `${city} 24 `,
-		author: {
-			name: "City Hall level 24 The Fuedal Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 24, ",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "None",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.23 \nStorehouse Lv.23\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
-				value: "130,000",
-				inline: true,
-			},
-			{
-				name: "Cost",
-				value: "Corn: 54.8Mil \nWood: 54.8Mil \nStone: 24Mil",
-				inline: true,
-			},
-			{
-				name: "Time",
-				value: "36 Days",
-				inline: true,
-			},
-			{
-				name: "Power",
-				value: "1,322,480",
-				inline: true,
-			},
-		],
-	},
-
-	25: {
-		color: fuedalAge,
-		title: `${city} 25 `,
-		author: {
-			name: "City Hall level 25 The Fuedal Age",
-			icon_url: `${cityimg}`,
-		},
-		description: "City Hall Level 25, ",
-		thumbnail: {
-			url: `${cityimg}`,
-		},
-		fields: [
-			{
-				name: "Unlocks",
-				value: "Tier 5 Troops",
-				inline: true,
-			},
-			{
-				name: "Requirements",
-				value: "Wall Lv.24 \nStorehouse Lv.24\n",
-				inline: true,
-			},
-			{
-				name: "Troop Cap",
+				name: "Rallied Army Capacity",
 				value: "150,000",
 				inline: true,
 			},
 			{
 				name: "Cost",
-				value: "Corn: 82.2Mil \nWood: 82.2Mil \nStone: 36Mil",
+				value: "Corn: 2k\nWood: 3.8k\nBook of Covenant: x15",
 				inline: true,
 			},
 			{
 				name: "Time",
-				value: "126 Days 8 Hours",
+				value: "35 Min",
 				inline: true,
 			},
 			{
 				name: "Power",
-				value: "2,195,458",
+				value: "167",
+				inline: true,
+			},
+		],
+	},
+	6: {
+		color: stone,
+		title: `${Castle} 6 `,
+		author: {
+			name: "Castle level 6 The Stone Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 6, Nothing special here keep leveling up!",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.6",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "200,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 3.5k \nWood: 9.8k \nStone:3.5k\n Book of Covenant: x20",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "53 Min 20s",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "325",
+				inline: true,
+			},
+		],
+	},
+	7: {
+		color: stone,
+		title: `${Castle} 7 `,
+		author: {
+			name: "Castle level 7 The Stone Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 7",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.7",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "250,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 5.3k \nWood: 9.8k \nStone:5.3k\n Book of Covenant: x30",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "1 Hours 47 Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "627",
+				inline: true,
+			},
+		],
+	},
+	8: {
+		color: stone,
+		title: `${Castle} 8 `,
+		author: {
+			name: "Castle level 8 The Stone Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 8",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.8",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "300,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 8k \nWood: 14.8k \nStone: 8k \n Book of Covenant: x40",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "3 Hours 33Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "1,208",
+				inline: true,
+			},
+		],
+	},
+	9: {
+		color: stone,
+		title: `${Castle} 9 `,
+		author: {
+			name: "Castle level 9 The Stone Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 9",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.9",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "350,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 12.3k \nWood: 22.3k \nStone: 12k\n Book of Covenant: x50",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "7 Hours 7 Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "2,336",
+				inline: true,
+			},
+		],
+	},
+	10: {
+		color: iron,
+		title: `${Castle} 10 `,
+		author: {
+			name: "Castle level 10 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 10",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.10",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "400,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 18k \nWood: 22.5k \nStone: 18k\nBook of Covenant: x70",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "14 Hours 13Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "4,541",
+				inline: true,
+			},
+		],
+	},
+	11: {
+		color: iron,
+		title: `${Castle} 11 `,
+		author: {
+			name: "Castle level 11 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 11",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.11 ",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "475,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 27.5k \nWood: 52.5k \nStone: 27.5k\n Book of Covenant: x80",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "17 Hours 4 Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "7,241",
+				inline: true,
+			},
+		],
+	},
+	12: {
+		color: iron,
+		title: `${Castle} 12 `,
+		author: {
+			name: "Castle level 12 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 12",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.111",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "550,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 42.5k \nWood: 80k \nStone: 42.5k\n Book of Covenant: x100",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "20 Hours 29 Min",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "10,592",
+				inline: true,
+			},
+		],
+	},
+	13: {
+		color: iron,
+		title: `${Castle} 13 `,
+		author: {
+			name: "Castle level 13 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 13",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.13",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "625,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 65.0k \nWood: 120k \nStone: 65k\nBook of Covenant: x",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "1 Days",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "14,665",
+				inline: true,
+			},
+		],
+	},
+	14: {
+		color: iron,
+		title: `${Castle} 14 `,
+		author: {
+			name: "Castle level 14 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 14",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.14",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "700,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 97.5k \nWood: 180k \nStone: 97.5k\n Book of Covenant: x150",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "1 Day",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "19,759",
+				inline: true,
+			},
+		],
+	},
+	15: {
+		color: iron,
+		title: `${Castle} 15 `,
+		author: {
+			name: "Castle level 15 The Iron Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 15",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.15",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "775,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 147.5k \nWood: 270k \nStone: 147.5k\n Book of Covenant: x300",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "1 Days 11 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "26,132",
+				inline: true,
+			},
+		],
+	},
+	16: {
+		color: dark,
+		title: `${Castle} 16 `,
+		author: {
+			name: "Castle level 16 The Dark Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 16",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.16",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "850,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 222.5k \nWood: 405k \nStone: 222.5k\nBook of Covenant: x500",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "1 Days 18 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "34,169",
+				inline: true,
+			},
+		],
+	},
+	17: {
+		color: dark,
+		title: `${Castle} 17 `,
+		author: {
+			name: "Castle level 17 The Dark Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 17",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.17",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "925,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 335k \nWood: 607k \nStone: 335k\nBook of Covenant: x700",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "2 Day 3 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "44,397",
+				inline: true,
+			},
+		],
+	},
+	18: {
+		color: dark,
+		title: `${Castle} 18 `,
+		author: {
+			name: "Castle level 18 The Dark Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 18",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.18",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,000,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 525k \nWood: 925k \nStone: 525k\nBook of Covenant: x900",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "2 Days 13 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "57,677",
+				inline: true,
+			},
+		],
+	},
+	19: {
+		color: dark,
+		title: `${Castle} 19 `,
+		author: {
+			name: "Castle level 19 The Dark Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 19",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.19",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,100,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 800K \nWood: 1.4Mil \nStone: 8Mil\n Book of Covenant: x1200",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "3 Days 1 Hour",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "75,044",
+				inline: true,
+			},
+		],
+	},
+	20: {
+		color: dark,
+		title: `${Castle} 20 `,
+		author: {
+			name: "Castle level 20 The Dark Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 20",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.20",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,200,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 1.2Mil \nWood: 2.1Mil \nStone: 1.2Mil\nBook of Covenant: x1500",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "3 Days 16 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "97,924",
+				inline: true,
+			},
+		],
+	},
+	21: {
+		color: fuedalAge,
+		title: `${Castle} 21 `,
+		author: {
+			name: "Castle level 21 The Fuedal Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 21",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.21",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,300,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 1.8Mil \nWood: 3.2Mil \nStone: 1.8Mil\n Book of Covenant: x1800",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "4 Days, 10 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "128,440",
+				inline: true,
+			},
+		],
+	},
+	22: {
+		color: fuedalAge,
+		title: `${Castle} 22 `,
+		author: {
+			name: "Castle level 22 The Fuedal Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 22, ",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.22",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,400,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 2.7Mil \nWood: 4.7Mil \nStone:2.7Mil \n Book of Covenant: x2000",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "5 Days 17 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "171,171",
+				inline: true,
+			},
+		],
+	},
+	23: {
+		color: fuedalAge,
+		title: `${Castle} 23 `,
+		author: {
+			name: "Castle level 23 The Fuedal Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 23, ",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.23",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,500,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 4.1Mil \nWood: 7.1Mil \nStone: 4.1Mil\n Book of Covenant: x2500",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "8 Days",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "233,315",
+				inline: true,
+			},
+		],
+	},
+	24: {
+		color: fuedalAge,
+		title: `${Castle} 24 `,
+		author: {
+			name: "Castle level 24 The Fuedal Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 24, ",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.24",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "1,600,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value:
+					"Corn: 6.3Mil \nWood: 10.8Mil \nStone: 6.3Mil\n Book of Covenant: x3000",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "12 Days",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "327,606",
+				inline: true,
+			},
+		],
+	},
+	25: {
+		color: fuedalAge,
+		title: `${Castle} 25 `,
+		author: {
+			name: "Castle level 25 The Fuedal Age",
+			icon_url: `${Castleimg}`,
+		},
+		description: "Castle Level 25, ",
+		thumbnail: {
+			url: `${Castleimg}`,
+		},
+		fields: [
+			{
+				name: "Requirements",
+				value: "Alliance Center Lv.25 \nSeige Workshop Lv.25\n",
+				inline: true,
+			},
+			{
+				name: "Rallied Army Capacity",
+				value: "2,000,000",
+				inline: true,
+			},
+			{
+				name: "Cost",
+				value: "Corn: ? \nWood: ? \nStone: ? \nBook of Covenant: x5000",
+				inline: true,
+			},
+			{
+				name: "Time",
+				value: "23 Days 5 Hours",
+				inline: true,
+			},
+			{
+				name: "Power",
+				value: "552,999",
 				inline: true,
 			},
 		],
