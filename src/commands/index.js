@@ -8,7 +8,7 @@ const poll = require("./poll");
 // help command
 let descriptions = "";
 const errMessage =
-	"Sorry maybe you spelled the command wrong. Or we havent updated that command yet! If you need help with the command run '!bot'. If you need further assistance @silent hero or @vert for assistance";
+	"Sorry maybe you spelled the command wrong. Or we havent updated that command yet! If you need help with the command run '!bot'. If you need further assistance @ the clan leader";
 
 const commands = [commander, eightBall, sunTzu, upgrade, poll].reduce(
 	(all, cmd) => {

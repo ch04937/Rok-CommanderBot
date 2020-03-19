@@ -1,5 +1,4 @@
 const heroes = require("./rokAssets/heroEmbed"); //commander embet info/data
-const combo = require("./commanderProfiles/commanderCombo"); //combo embet info/data
 const options = {
 	gather: 1,
 	nuke: 2,
@@ -15,7 +14,7 @@ const key = Object.keys(heroes.names);
 module.exports = {
 	name: "commanders",
 	description:
-		"Gives optimal ways to play a specific commander. Talent trees, and best pairings.",
+		"Gives optimal ways to play a specific commander. Talent trees, and best pairings. You have to give the first name of the commander ",
 	//commands for bot sends name of message and image
 	triggers: ["tree"],
 	handler:
