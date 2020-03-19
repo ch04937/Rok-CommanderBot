@@ -21,10 +21,10 @@ const names = {
 				"https://cdn.shopify.com/s/files/1/0258/1712/0802/products/aethelflaed_480x480.png?v=1565823184",
 		},
 		image: {
-			url: "attachment://atheflead1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/11/aethefled-field-battle-1024x576.png",
 		},
 	},
-
 	scipio: {
 		color: purple,
 		title: ` Scipio ${card}`,
@@ -39,7 +39,8 @@ const names = {
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero14.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://scipio1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/scipio-talent-tree.png",
 		},
 	},
 	hannibal: {
@@ -56,7 +57,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/54/Hannibal_Barca.png/revision/latest?cb=20181107164847",
 		},
 		image: {
-			url: "attachment://hanibal1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/11/hannibal-barca-field-battles-1024x576.png",
 		},
 	},
 	saladin: {
@@ -73,7 +75,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/2d/Saladin.png/revision/latest?cb=20190217114036",
 		},
 		image: {
-			url: "attachment://saladin1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/saladin-talent-tree-1024x576.png",
 		},
 	},
 	constantine: {
@@ -90,7 +93,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/bc/Constantine_I.png/revision/latest?cb=20190217114020",
 		},
 		image: {
-			url: "attachment://constantine1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/09/Constantine-1024x577.jpg",
 		},
 	},
 	lohar: {
@@ -122,7 +126,8 @@ const names = {
 		],
 
 		image: {
-			url: "attachment://lohar1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/11/lohar-talent-tree-1024x578.png",
 		},
 	},
 	boudica: {
@@ -139,7 +144,8 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero17.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://boudica1.PNG",
+			url:
+				"ahttps://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=1024%2C577&ssl=1",
 		},
 	},
 	osman: {
@@ -156,7 +162,8 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://osman1.PNG",
+			url:
+				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman_I_talents_all_in_one.png?resize=1024%2C577&ssl=1",
 		},
 	},
 	city: {
@@ -173,7 +180,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/9/9d/City_Keeper.png/revision/latest?cb=20181107165426",
 		},
 		image: {
-			url: "attachment://citykeeper1.PNG",
+			url:
+				"https://preview.redd.it/sorh1ww6io421.png?width=1920&format=png&auto=webp&s=b24922db297ea4253eab1f6a99b42edbc494e086",
 		},
 	},
 	dragon: {
@@ -190,7 +198,7 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c4/Dragon_Lancer.png/revision/latest?cb=20181107165413",
 		},
 		image: {
-			url: "attachment://dragonlancer1.PNG",
+			url: "https://i.ytimg.com/vi/EgFujI7WiAM/hqdefault.jpg",
 		},
 	},
 	tomoe: {
@@ -207,7 +215,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/87/Tomoe_Gozen.png/revision/latest?cb=20181107165303",
 		},
 		image: {
-			url: "attachment://tomoegozen1.PNG",
+			url:
+				"https://riseofkingdomsboss.com/wp-content/uploads/2020/01/rise-of-kingdoms-tomoe-gozen-versatility-build-728x331.jpg",
 		},
 	},
 	gengiskhan: {
@@ -224,7 +233,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest?cb=20190505172506",
 		},
 		image: {
-			url: "attachment://gengiskhan1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/ghenghis-khan-talent-tree-1024x576.png",
 		},
 	},
 	cleopatra: {
@@ -235,32 +245,14 @@ const names = {
 			icon_url:
 				"http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg",
 		},
-		description:
-			"Cleopatra can do this.... If you are looking for gathering skills try cleo gather",
+		description: "Cleopatra Support otherwise go with a gathering build",
 		thumbnail: {
 			url:
 				"http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg",
 		},
 		image: {
-			url: "attachment://cleopatra1.PNG",
-		},
-	},
-	cleopatra1: {
-		color: gold,
-		title: ` Cleopatra ${card}`,
-		author: {
-			name: "Cleopatra",
-			icon_url:
-				"http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg",
-		},
-		description:
-			"Cleopatra can do this.... If you are looking for talent support try cleo",
-		thumbnail: {
 			url:
-				"http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg",
-		},
-		image: {
-			url: "attachment://cleopatra2.PNG",
+				"https://rok.guide/wp-content/uploads/2019/09/cleopatra-support-build-1024x558.jpg",
 		},
 	},
 	joan: {
@@ -272,31 +264,14 @@ const names = {
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Joan of Arc can do this.... If you are looking for talent gathering try joan gather",
+			"Joan can be used as a support build otherwise max gathering",
 		thumbnail: {
 			url:
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://joanofarc1.PNG",
-		},
-	},
-	joan1: {
-		color: purple,
-		title: ` Joan of Arc ${card}`,
-		author: {
-			name: "Joan of Arc",
-			icon_url:
-				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Joan of Arc can do this.... If you are looking for talent support try joan",
-		thumbnail: {
 			url:
-				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://joanofarc2.PNG",
+				"https://rok.guide/wp-content/uploads/2019/03/joan-of-arc-support-build-1024x578.jpg",
 		},
 	},
 	sun: {
@@ -313,7 +288,8 @@ const names = {
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero3-1.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://suntzu2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/stun-tzu-talent-tree-1024x576.png",
 		},
 	},
 	julius: {
@@ -368,7 +344,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/cd/Lancelot.png/revision/latest?cb=20181107165242",
 		},
 		image: {
-			url: "attachment://lancelot2.PNG",
+			url:
+				"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVWgqdWFa2x8&psig=AOvVaw37BmHx_7W6XPS8OOF7CpmX&ust=1584685792991000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPD1ieb0pegCFQAAAAAdAAAAABAI",
 		},
 	},
 	frederick: {
@@ -380,13 +357,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
 		},
 		description:
-			"Frederick can do this.... if you are looking for more a nuker build try !tree fred nuke",
+			"This is a hybrid build really good when you’re trying to attack governor cities, flags, and fortresses. For nuke/skill !tree frederick nuke",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
 		},
 		image: {
-			url: "attachment://frederick2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/uncle-fred-ultimate-build-1024x677.jpg",
 		},
 	},
 	frederick2: {
@@ -398,13 +376,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
 		},
 		description:
-			"Frederick can do this.... if you are looking for more mix build try !tree fred",
+			"PVP fighting in the field use this.  hybrid: !tree frederick",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
 		},
 		image: {
-			url: "attachment://frederick1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/11/Fredrick-Field-Battle-tree-1024x576.png",
 		},
 	},
 	elcid: {
@@ -416,13 +395,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
 		},
 		description:
-			"El Cid can do this.... if you are looking for a nuke build try !tree el cid",
+			"El Cid can do this.... if you are looking for a nuke build try !tree elcid nuke",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
 		},
 		image: {
-			url: "attachment://elcid1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/09/el-cid-archer-build-1024x558.jpg",
 		},
 	},
 	elcid2: {
@@ -434,31 +414,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
 		},
 		description:
-			"El Cid can do this.... if you are looking for an archer build try !tree el arch",
+			"El Cid can do this.... if you are looking for an archer build try !tree elcid",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
 		},
 		image: {
-			url: "attachment://elcid2.PNG",
-		},
-	},
-	mehmed3: {
-		color: gold,
-		title: `Mehmed ${card}`,
-		author: {
-			name: "Mehmed",
-			icon_url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048",
-		},
-		description:
-			"Mehmed can do this.... if you are looking for a pvp build try !tree meh",
-		thumbnail: {
 			url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048",
-		},
-		image: {
-			url: "attachment://mehmed1.PNG",
+				"https://rok.guide/wp-content/uploads/2019/09/el-cid-skill-tree-1024x558.jpg",
 		},
 	},
 	mehmed: {
@@ -469,14 +432,14 @@ const names = {
 			icon_url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048",
 		},
-		description:
-			"Mehmed can do this.... if you are looking for rally build try !tree meh rally",
+		description: "blank for now",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048",
 		},
 		image: {
-			url: "attachment://mehmed2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/09/mehmed-ii-pvp-buildings-build-1024x570.jpg",
 		},
 	},
 	belisarious: {
@@ -488,13 +451,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
 		},
 		description:
-			"Belisarious can do this.... if you are looking for a cavalry build try !tree beli cav",
+			"Belisarious can do this.... if you are looking for a cavalry build try !tree belisarious cav",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
 		},
 		image: {
-			url: "attachment://belisarious1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/belisarius-talent-build-pve-1024x578.jpg",
 		},
 	},
 	belisarious4: {
@@ -512,10 +476,11 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
 		},
 		image: {
-			url: "attachment://belisarious2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/belisarius-talent-build-2-1024x578.jpg",
 		},
 	},
-	beibars: {
+	baibars: {
 		color: purple,
 		title: `Beibars ${card}`,
 		author: {
@@ -530,10 +495,11 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
 		},
 		image: {
-			url: "attachment://baibars1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/baibars-talent-tree-2-1024x578.jpg",
 		},
 	},
-	beibars4: {
+	baibars4: {
 		color: purple,
 		title: `Beibars ${card}`,
 		author: {
@@ -548,7 +514,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
 		},
 		image: {
-			url: "attachment://baibars2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/baibars-cavalry-1024x576.jpg",
 		},
 	},
 	herman: {
@@ -617,16 +584,17 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Eulji Mundeok can do this.... if you are looking for garrison build try !tree eul garri. If you are looking for infantry build try !tree eul infantry",
+			"Eulji Mundeok can do this.... if you are looking for garrison build try !tree eulji garri.",
 		thumbnail: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://eulji2.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/eulji-field-flad-fight-talent-tree-1024x576.png",
 		},
 	},
-	eulji7: {
+	eulji6: {
 		color: purple,
 		title: `Eulji Mundeok ${card}`,
 		author: {
@@ -635,34 +603,17 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Eulji Mundeok can do this.... if you are looking for a garrison build try !tree eul garri. If you are looking for a mix build try !tree eul",
+			"Eulji Mundeok can do this....  If you are looking for a mix build try !tree eul",
 		thumbnail: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://eulji3.PNG",
-		},
-	},
-	eul6: {
-		color: purple,
-		title: `Eulji Mundeok ${card}`,
-		author: {
-			name: "Eulji Mundeok",
-			icon_url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Eulji Mundeok can do this.... if you are looking for mixed build try !tree eul. If you are looking for an infantry build try !tree eul infantry",
-		thumbnail: {
 			url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://eulji1.PNG",
+				"https://rok.guide/wp-content/uploads/2019/09/eulji-mundeok-garrison-talent-tree-1024x584.jpg",
 		},
 	},
-	charles7: {
+	charles6: {
 		color: gold,
 		title: `Charles Martel ${card}`,
 		author: {
@@ -671,31 +622,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
 		},
 		description:
-			"Charles Martel can do this.... if you are looking for garrison build try !tree char .If you are looking for mix build try !tree char mix",
+			"Charles Martel can do this... If you are looking for mix build try !tree charles",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
 		},
 		image: {
-			url: "attachment://charlesmartel2.PNG",
-		},
-	},
-	charles8: {
-		color: gold,
-		title: `Charles Martel ${card}`,
-		author: {
-			name: "Charles Martel",
-			icon_url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
-		},
-		description:
-			"Charles Martel can do this.... if you are looking for a garrison build try !tree char .If you are looking for a infantry build try !tree char infantry",
-		thumbnail: {
 			url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
-		},
-		image: {
-			url: "attachment://charlesmartel3.PNG",
+				"https://rok.guide/wp-content/uploads/2019/06/charles-martel-talent-2-1024x576.png",
 		},
 	},
 	charles: {
@@ -707,13 +641,14 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
 		},
 		description:
-			"Charles Martel can do this.... if you are looking for mixed build try !tree char mix. If you are looking for an infantry build try !tree char infantry",
+			"Charles Martel can do this.... if you are looking for garrison !tree charles garri",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
 		},
 		image: {
-			url: "attachment://charlesmartel1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/11/charles-martel-field-battle-talent-tree-1-1024x575.png",
 		},
 	},
 	cao: {
@@ -731,25 +666,8 @@ const names = {
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
 		},
 		image: {
-			url: "attachment://caocao1.PNG",
-		},
-	},
-	cao9: {
-		color: gold,
-		title: `Cao Cao ${card}`,
-		author: {
-			name: "Cao Cao",
-			icon_url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
-		},
-		description:
-			"Cao Cao can do this.... if you are looking for cavalry build try !tree cao .",
-		thumbnail: {
 			url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
-		},
-		image: {
-			url: "attachment://caocao2.PNG",
+				"https://rok.guide/wp-content/uploads/2019/06/cao-cao-field-fights-1024x576.png",
 		},
 	},
 	yi: {
@@ -760,50 +678,14 @@ const names = {
 			icon_url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
 		},
-		description:
-			"Yi Seong-Gye can do this.... if you are looking for archer build try !tree yi arch. If you are looking for an nuker build try !tree yi nuke",
+		description: "Yi Seong-Gye can do this.... ",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
 		},
 		image: {
-			url: "attachment://yiSeong-Gye1.PNG",
-		},
-	},
-	yi5: {
-		color: gold,
-		title: `Yi Seong-Gye ${card}`,
-		author: {
-			name: "Yi Seong-Gye",
-			icon_url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
-		},
-		description:
-			"Yi Seong-Gye can do this.... if you are looking for a garrinson build try !tree yi . If you are looking for a nuke build try !tree yi nuke ",
-		thumbnail: {
 			url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
-		},
-		image: {
-			url: "attachment://yiSeong-Gye2.PNG",
-		},
-	},
-	yi2: {
-		color: gold,
-		title: `Yi Seong-Gye ${card}`,
-		author: {
-			name: "Yi Seong-Gye",
-			icon_url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
-		},
-		description:
-			"Yi Seong-Gye can do this.... if you are looking for garrison build try !tree yi . If you are looking for archer build try !tree yi arch",
-		thumbnail: {
-			url:
-				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
-		},
-		image: {
-			url: "attachment://yiSeong-Gye3.PNG",
+				"https://rok.guide/wp-content/uploads/2019/09/Yi_Seong-Gye-1024x576.jpg",
 		},
 	},
 	richard: {
@@ -815,31 +697,14 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Richard can do this.... if you are looking for mix build try !tree rich mix. If you are looking for an infantry build try !tree rich infantry",
+			"Richard can do this....  If you are looking for an infantry build try !tree rich infantry",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://richard1.PNG",
-		},
-	},
-	rich8: {
-		color: gold,
-		title: `Richard ${card}`,
-		author: {
-			name: "Richard",
-			icon_url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Richard can do this.... if you are looking for a garrinson build try !tree rich . If you are looking for a infantry build try !tree rich infantry ",
-		thumbnail: {
 			url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://richard2.PNG",
+				"https://rok.guide/wp-content/uploads/2019/09/richard-i-garrison-talent-1024x570.jpg",
 		},
 	},
 	rich7: {
@@ -851,13 +716,14 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Richard can do this.... if you are looking for garrison build try !tree rich . If you are looking for infantry build try !tree rich infantry",
+			"Richard can do this.... if you are looking for garrison build try !tree rich .",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://richard3.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/09/richard-i-infantry-talent-1024x570.jpg",
 		},
 	},
 	kusunoki: {
@@ -875,43 +741,8 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://kusunoki1.PNG",
-		},
-	},
-	kusunoki2: {
-		color: purple,
-		title: `Kusunoki ${card}`,
-		author: {
-			name: "Kusunoki",
-			icon_url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Kusunoki can do this.... if you are looking for a archer build try !tree kusu . If you are looking for a garrison build try !tree kusu garri ",
-		thumbnail: {
 			url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://kusunoki2.PNG",
-		},
-	},
-	kusunoki3: {
-		color: purple,
-		title: `Kusunoki ${card}`,
-		author: {
-			name: "Kusunoki",
-			icon_url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Kusunoki can do this.... if you are looking for archer build try !tree kusu . If you are looking for nuke build try !tree kusu nuke",
-		thumbnail: {
-			url:
-				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://kusunoki3.PNG",
+				"https://rok.guide/wp-content/uploads/2019/11/kusunoki-masashige-field-battle-1024x574.png",
 		},
 	},
 	pelagius: {
@@ -923,13 +754,14 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Pelagius  can do this.... if you are looking for nuke build try !tree pela nuke. If you are looking for an garrison build try !tree pela garri",
+			"Pelagius  can do this....  If you are looking for an garrison build try !tree pela garri",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://pelagius1.PNG",
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/pelagius-pvp-talent-tree-2-1024x578.jpg",
 		},
 	},
 	pelagius6: {
@@ -941,31 +773,14 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Pelagius  can do this.... if you are looking for a cavalry build try !tree pela . If you are looking for a nuke build try !tree pela nuke ",
+			"Pelagius  can do this.... if you are looking for a cavalry build try !tree pela . ",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://pelagius2.PNG",
-		},
-	},
-	pelagius2: {
-		color: purple,
-		title: `Pelagius  ${card}`,
-		author: {
-			name: "Pelagius ",
-			icon_url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Pelagius  can do this.... if you are looking for cavalry build try !tree pela . If you are looking for garrison build try !tree pela garri",
-		thumbnail: {
 			url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://pelagius3.PNG",
+				"https://rok.guide/wp-content/uploads/2019/03/pelagius-garrison-talent-tree-2-1024x578.jpg",
 		},
 	},
 	minamoto: {
@@ -976,50 +791,14 @@ const names = {
 			icon_url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
 		},
-		description:
-			"Minamoto no Yoshitsune can do this.... if you are looking for cavalry build try !tree mina cav. If you are looking for an rally build try !tree mina rally",
+		description: "Minamoto no Yoshitsune can do this.... ",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
 		},
 		image: {
-			url: "attachment://minimoto1.PNG",
-		},
-	},
-	minamoto3: {
-		color: gold,
-		title: `Minamoto no Yoshitsune ${card}`,
-		author: {
-			name: "Minamoto no Yoshitsune",
-			icon_url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Minamoto no Yoshitsune can do this.... if you are looking for a cavalry build try !tree mina cav . If you are looking for a nuke build try !tree mina ",
-		thumbnail: {
 			url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://minimoto2.PNG",
-		},
-	},
-	minamoto4: {
-		color: gold,
-		title: `Minamoto no Yoshitsune ${card}`,
-		author: {
-			name: "Minamoto no Yoshitsune",
-			icon_url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
-		},
-		description:
-			"Minamoto no Yoshitsune can do this.... if you are looking for nuke build try !tree mina . If you are looking for rally build try !tree mina rally",
-		thumbnail: {
-			url:
-				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
-		},
-		image: {
-			url: "attachment://minimoto3.PNG",
+				"https://rok.guide/wp-content/uploads/2019/06/minamoto-no-yoshitsune-talent-1024x576.png",
 		},
 	},
 };
