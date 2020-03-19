@@ -20,5 +20,5 @@ The usage for this bot will be as follows:
 
     -   Give you famous qoutes from the famous hero Sun Tzu
 
--   !!castle
+-   [x] !!castle
     -   Learn information about city/castle to level up

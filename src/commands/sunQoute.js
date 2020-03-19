@@ -1,11 +1,13 @@
-const qoute = require('./commanderProfiles/commanderEmbedInfo')
+const sunTzu = require("sun-tzu-quotes");
 
 module.exports = {
-    name: 'Sun Tzu Quotes',
-    triggers: ['wise'],
-    descrition: 'get a famous quote fom sun tzu',
-    handler: (message) => {
-        if(message.author.bot) return; // checks if message was sent by a bot
-        return message.channel.send({ embed: qoute.sunTzuQoute })
-    }
-}
+	name: "Sun Tzu Quotes",
+	triggers: ["wise"],
+	descrition: "Give you famous qoutes from the famous hero Sun Tzu",
+	handler: message => {
+		if (message.author.bot) return; // checks if message was sent by a bot
+		if (message.content.toLowerCase() == "!wise") {
+			return message.channel.send(`Sun Tzu once said, \n\n${sunTzu()}`);
+		}
+	},
+};
