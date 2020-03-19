@@ -89,10 +89,23 @@ const lohar = {
 		name: 'Lohar',
 		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1',
     },
-    description: 'Lohar is the king at hunting barbarians and other nuetral forces and should be used for that! and only that!',
+    description: 'Barbaining killing commmander, good for leveling their paired commander',
     thumbnail: {
         url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1'
     },
+    fields: [
+        {
+            name: 'Tree',
+            value: 'The bottem side of peacekeeping, then optional, read Maximas guide on Play styles, refernce peacekeeping commanders',
+            inline: true
+        },
+        {
+            name: 'Typical Role',
+            value: 'Peacekeeping',
+            inline: true
+        },
+    ],
+
 	image: {
             url: 'attachment://lohar1.PNG',
         },

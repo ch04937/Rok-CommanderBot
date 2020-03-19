@@ -73,7 +73,6 @@ const lohar = {
 		name: 'Lohar',
 		icon_url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1',
     },
-    description: 'Lohar is the king at hunting barbarians and other nuetral forces and should be used for that! and only that!',
     thumbnail: {
         url: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1'
     },
