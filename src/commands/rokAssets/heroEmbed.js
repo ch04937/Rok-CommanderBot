@@ -138,14 +138,15 @@ const names = {
 			icon_url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero17.png?fit=600%2C650&ssl=1",
 		},
-		description: "Boudica can do this....",
+		description:
+			"To optimally utilize Boudica’s skills, we will mostly build around her Skills Talent Tree and then pick up some talents in Peacekeeping Talent Trees. Unlocking talents that will increase skill damage and increase rage restoration will drastically improve her nuking ability. Her skills that deals massive damage, heals slightly wounded units and restores rage will be maximized if Boudica can unleash skills faster.",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero17.png?fit=600%2C650&ssl=1",
 		},
 		image: {
 			url:
-				"ahttps://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=1024%2C577&ssl=1",
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=1024%2C577&ssl=1",
 		},
 	},
 	osman: {
