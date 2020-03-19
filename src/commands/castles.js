@@ -16,7 +16,7 @@ module.exports = {
 			// loop through object to find key s
 			for (let i = 0; i < Object.keys(building.levels).length; i++) {
 				// search for the key
-				if (`${msg}` === `!castle ${i + 1}`) {
+				if (msg === `!castle ${i + 1}`) {
 					//  send the values as embed
 					message.channel.send({ embed: building.levels[i + 1] });
 				}
