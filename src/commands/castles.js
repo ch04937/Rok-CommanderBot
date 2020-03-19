@@ -1,9 +1,9 @@
 // getting embeds
-const building = require("./upgradeBuildings/upgradeBuildingsEmbed");
+const building = require("./castleProgress/castleEmbed");
 
 module.exports = {
 	name: "City Hall Upgrades",
-	descrition: "Gets information from all current city halls",
+	descrition: "Learn information about city/castle to level up",
 	triggers: ["castle"],
 	handler:
 		("message",

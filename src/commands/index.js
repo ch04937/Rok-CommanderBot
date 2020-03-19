@@ -2,7 +2,7 @@
 const commander = require("./commander");
 const eightBall = require("./eightBall");
 const sunTzu = require("./sunQoute");
-const upgrade = require("./upgrade");
+const upgrade = require("./castles");
 
 // help command
 let descriptions = "";
