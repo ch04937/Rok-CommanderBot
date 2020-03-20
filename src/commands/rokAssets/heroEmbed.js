@@ -7,15 +7,16 @@ const blue = 0x3a8bdf;
 const card = "Commander Sheet";
 
 const names = {
-	aetheflead: {
+	aethefled: {
 		color: gold,
-		title: ` Aetheflead ${card}`,
+		title: ` Aethefled ${card}`,
 		author: {
-			name: "Aetheflead",
+			name: "Aethefled",
 			icon_url:
 				"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiuIWZTOc8qYfDnhtwAkd1eShN71u0R_VuzEo35FiQFhRsadE&s",
 		},
-		description: "Aetheflead can do this....",
+		description:
+			"Æthelflæd  is right now the goddess of free to play players as you can purchase her sculptures right in the Expedition Store. She is the true life saver of enormous F2P Players.",
 		thumbnail: {
 			url:
 				"https://cdn.shopify.com/s/files/1/0258/1712/0802/products/aethelflaed_480x480.png?v=1565823184",
@@ -33,7 +34,8 @@ const names = {
 			icon_url:
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero14.png?fit=600%2C650&ssl=1",
 		},
-		description: "Scipio can do this....",
+		description:
+			"Scipio Africanus, Rome’s starting commander, is one of the strongest PVP commander in Rise of Kingdoms especially for free to play players. His skills that significantly improves his troops combat ability makes him a formidable commander in the open field. He is also considered as one of the best defensive commanders due to his first skill, Military Life, which greatly reduces the enemy troop’s damage. And his ability to sustain damage is further increased by his second skill, Patient Warrior, which heals his own troops. He can further be improved by building his talent tree the right way.",
 		thumbnail: {
 			url:
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero14.png?fit=600%2C650&ssl=1",
@@ -450,16 +452,16 @@ const names = {
 				"https://rok.guide/wp-content/uploads/2019/09/mehmed-ii-pvp-buildings-build-1024x570.jpg",
 		},
 	},
-	belisarious: {
+	belisarius: {
 		color: purple,
-		title: `Belisarious ${card}`,
+		title: `Belisarius ${card}`,
 		author: {
-			name: "Belisarious",
+			name: "Belisarius",
 			icon_url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
 		},
 		description:
-			"Belisarious can do this.... if you are looking for a cavalry build try !tree belisarious cav",
+			"Belisarius can do this.... if you are looking for a cavalry build try !tree Belisarius cav",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
@@ -469,7 +471,7 @@ const names = {
 				"https://rok.guide/wp-content/uploads/2019/03/belisarius-talent-build-pve-1024x578.jpg",
 		},
 	},
-	belisarious4: {
+	belisarius4: {
 		color: purple,
 		title: `Belisarius ${card}`,
 		author: {

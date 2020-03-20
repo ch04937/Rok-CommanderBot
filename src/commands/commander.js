@@ -3,11 +3,10 @@ const options = {
 	gather: 1,
 	nuke: 2,
 	rally: 3,
-	cav: 4,
-	arch: 5,
-	garri: 6,
+	cavalry: 4,
+	archer: 5,
+	garrison: 6,
 	infantry: 7,
-	mix: 8,
 	mobility: 9,
 };
 const key = Object.keys(heroes.names);
