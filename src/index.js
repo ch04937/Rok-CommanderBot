@@ -6,17 +6,16 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 //env vars
-
 const BOT_TOKEN = process.env.BOT_TOKEN;
 let ver = process.env.NODE_ENV;
 
 //all bot commands
 const prefix = "!";
-const commands = require("./commands");
+const commands = require("./commands/main");
 
 //testing will display in code land and production will display ready for action
 client.on("ready", () => {
-	console.log(` \n Logged in as ${client.user.tag} \n`);
+	console.log(`\nLogged in as ${client.user.tag} \n`);
 	if (ver === "production") {
 		client.user.setStatus("online");
 		client.user.setPresence({
@@ -30,11 +29,10 @@ client.on("ready", () => {
 		client.user.setStatus("online");
 		client.user.setPresence({
 			game: {
-				name: "Doing magic in " + client.guilds.size + " Servers",
-				type: "HELPING",
+				name: "Dev In " + client.guilds.size + " Servers",
+				type: "PLAYING",
 			},
 		});
-		console.log("Doing magic in " + client.guilds.size + " Server(s)");
 	}
 });
 

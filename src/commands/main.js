@@ -1,11 +1,13 @@
 // features
-const commander = require("./commander");
-const eightBall = require("./eightBall");
-const sunTzu = require("./sunQoute");
-const upgrade = require("./cityHall");
-const castle = require("./castle");
-const poll = require("./poll");
-const donate = require("./donate");
+const eightBall = require("./miscellaneous/eightBall");
+const sunTzu = require("./miscellaneous/sunQoute");
+const donate = require("./miscellaneous/donate");
+const poll = require("./miscellaneous/poll");
+const update = require("./miscellaneous/update");
+
+const castle = require("./rokAssets/castle");
+const upgrade = require("./rokAssets/cityHall");
+const commander = require("./rokAssets/commander");
 
 // help command
 let descriptions = "";
@@ -20,6 +22,7 @@ const commands = [
 	poll,
 	donate,
 	castle,
+	update,
 ].reduce((all, cmd) => {
 	cmd.triggers.forEach(trigger => (all[trigger] = cmd.handler));
 	descriptions += `**${cmd.name}** - ${cmd.description}
@@ -33,11 +36,13 @@ const allCommands = message => {
 	return message.channel.send(descriptions);
 };
 
-commands["commands"] = allCommands;
 commands["bot"] = allCommands;
 
 module.exports = {
 	handle: (command, message) => {
+		message.content.toLowerCase(); // case sensitive words
+		// checks if message was sent by a bot
+		if (message.author.bot) return;
 		if (command && commands[command]) {
 			commands[command](message);
 		} else {

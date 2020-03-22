@@ -1,5 +1,5 @@
 // getting embeds
-const building = require("./rokAssets/cityEmbed");
+const building = require("./embeds/cityEmbed");
 
 module.exports = {
 	name: "City Hall Upgrades",

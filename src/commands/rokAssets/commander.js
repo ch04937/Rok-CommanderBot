@@ -1,4 +1,4 @@
-const heroes = require("./rokAssets/heroEmbed"); //commander embet info/data
+const heroes = require("./embeds/heroEmbed"); //commander embet info/data
 const options = {
 	gather: 1,
 	nuke: 2,
@@ -19,22 +19,19 @@ module.exports = {
 	handler:
 		("message",
 		message => {
-			// case sensitive words
-			const msg = message.content.toLowerCase();
-			//optimazing code more readable
 			const msgs = message.channel;
+			// get suffix from commands
 			var n = msg.split(" ");
 			const suffix = n[n.length - 1];
-			if (message.author.bot) return; // checks if message was sent by a bot
-			if (!message.content.startsWith("!tree")) return; //makes so that user needs prefix
 
+			// loop through bd to look for the key when found return with embed
 			for (let i = 0; i < key.length; i++) {
 				if (msg === `!tree ${key[i]} ${suffix}`) {
-					msgs.send({
+					return msgs.send({
 						embed: heroes.names[key[i] + options[suffix]],
 					});
 				} else if (msg === `!tree ${key[i]}`) {
-					msgs.send({
+					return msgs.send({
 						embed: heroes.names[key[i]],
 					});
 				}

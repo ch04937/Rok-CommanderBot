@@ -528,7 +528,7 @@ const names = {
 				"https://rok.guide/wp-content/uploads/2019/03/baibars-cavalry-1024x576.jpg",
 		},
 	},
-	herman: {
+	hermann: {
 		color: purple,
 		title: `Hermann ${card}`,
 		author: {
@@ -547,7 +547,7 @@ const names = {
 				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_GARRISON.png?resize=1024%2C577&ssl=1",
 		},
 	},
-	herman5: {
+	hermann5: {
 		color: purple,
 		title: `Hermann ${card}`,
 		author: {
@@ -566,7 +566,7 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_ARCHERY.png?resize=1024%2C577&ssl=1",
 		},
 	},
-	herman2: {
+	hermann2: {
 		color: purple,
 		title: `Hermann ${card}`,
 		author: {
