@@ -2,7 +2,7 @@ const donate = {
 	color: 0x008f11,
 	title: "Donation Info",
 	description:
-		"Thank you for wanting to help the developer.\n\n Consider joining my" +
+		"Thank you for wanting to help the developer.\n\n Consider joining my  " +
 		"[Patreon](https://www.patreon.com/silent_hero)",
 };
 

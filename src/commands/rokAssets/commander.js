@@ -14,11 +14,11 @@ module.exports = {
 	name: "Commanders",
 	description:
 		"Gives optimal ways to play a specific commander. Talent trees, and best pairings. You have to give the first name of the commander ",
-	//commands for bot sends name of message and image
 	triggers: ["tree"],
 	handler:
 		("message",
 		message => {
+			const msg = message.content;
 			const msgs = message.channel;
 			// get suffix from commands
 			var n = msg.split(" ");
