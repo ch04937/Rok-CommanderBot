@@ -8,6 +8,7 @@ const options = {
 	garrison: 6,
 	infantry: 7,
 	mobility: 9,
+	flag: 10,
 };
 const key = Object.keys(heroes.names);
 module.exports = {

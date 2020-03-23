@@ -158,6 +158,25 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=1024%2C577&ssl=1",
 		},
 	},
+	osman2: {
+		color: purple,
+		title: ` Osman ${card}`,
+		author: {
+			name: "Osman",
+			icon_url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
+		},
+		description:
+			"For Osman rally build !tree rally, for leadership build !tree osman ",
+		thumbnail: {
+			url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
+		},
+		image: {
+			url:
+				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman_I_talents_all_in_one.png?resize=1024%2C577&ssl=1",
+		},
+	},
 	osman: {
 		color: purple,
 		title: ` Osman ${card}`,
@@ -166,14 +185,34 @@ const names = {
 			icon_url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
 		},
-		description: "Osman can do this....",
+		description:
+			"For Osman rally build !tree rally, for nuke/skill build !tree osman nuke",
 		thumbnail: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
 		},
 		image: {
 			url:
-				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman_I_talents_all_in_one.png?resize=1024%2C577&ssl=1",
+				"https://rok.guide/wp-content/uploads/2019/06/osman-talent-2-1024x576.png",
+		},
+	},
+	osman3: {
+		color: purple,
+		title: ` Osman ${card}`,
+		author: {
+			name: "Osman",
+			icon_url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
+		},
+		description:
+			"For Osman nuke/skill build !tree nuke, for leadership build !tree osman ",
+		thumbnail: {
+			url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
+		},
+		image: {
+			url:
+				"https://rok.guide/wp-content/uploads/2019/06/osman-talent-1-1024x576.png",
 		},
 	},
 	city: {
