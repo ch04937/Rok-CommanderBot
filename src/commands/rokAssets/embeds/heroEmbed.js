@@ -668,8 +668,7 @@ const names = {
 			icon_url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
 		},
-		description:
-			"Cao Cao can do this.... if you are looking for a mobility build try !tree cao mobility ",
+		description: "For Cao Cao mobility try !tree cao mobility",
 		thumbnail: {
 			url:
 				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
@@ -677,6 +676,24 @@ const names = {
 		image: {
 			url:
 				"https://rok.guide/wp-content/uploads/2019/06/cao-cao-field-fights-1024x576.png",
+		},
+	},
+	cao9: {
+		color: gold,
+		title: `Cao Cao ${card}`,
+		author: {
+			name: "Cao Cao",
+			icon_url:
+				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
+		},
+		description: "For a calvalry Build try !tree cao",
+		thumbnail: {
+			url:
+				"https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
+		},
+		image: {
+			url:
+				"https://rok.guide/wp-content/uploads/2019/03/cao-cao-talent-tree-1024x576.jpg",
 		},
 	},
 	yi: {
