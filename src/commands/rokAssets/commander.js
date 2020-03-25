@@ -19,7 +19,7 @@ module.exports = {
 	handler:
 		("message",
 		message => {
-			const msg = message.content;
+			const msg = message.content.toLowerCase(); // case sensitive words
 			const msgs = message.channel;
 			// get suffix from commands
 			var n = msg.split(" ");

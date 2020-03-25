@@ -40,7 +40,6 @@ commands["bot"] = allCommands;
 
 module.exports = {
 	handle: (command, message) => {
-		message.content.toLowerCase(); // case sensitive words
 		// checks if message was sent by a bot
 		if (message.author.bot) return;
 		if (command && commands[command]) {
