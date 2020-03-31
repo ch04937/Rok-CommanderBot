@@ -801,7 +801,7 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"If you are looking for an garrison build try !tree pela garrison",
+			"If you are looking for an garrison build try !tree pelagius garrison",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
@@ -820,7 +820,7 @@ const names = {
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"Pelagius if you are looking for a cavalry build try !tree pela . ",
+			"Pelagius if you are looking for a cavalry build try !tree pelagius. ",
 		thumbnail: {
 			url:
 				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",

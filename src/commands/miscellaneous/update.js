@@ -1,6 +1,6 @@
 module.exports = {
 	name: "Updates",
-	descriptions: "Changes made in to the bot commands will be added here for",
+	description: "Changes made in to the bot commands will be added here for",
 	triggers: ["updates"],
 	handler: message => {
 		return message.channel.send(

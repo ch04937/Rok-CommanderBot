@@ -11,9 +11,11 @@ module.exports = {
 			// loop through object to find key s
 			for (let i = 0; i < Object.keys(castle.levels).length; i++) {
 				// search for the key
-				if (msg === `!castle ${i + 1}`) {
+				if (message.content === `!castle ${i + 1}`) {
 					//  send the values as embed
-					message.channel.send({ embed: castle.levels[i + 1] });
+					return message.channel.send({
+						embed: castle.levels[i + 1],
+					});
 				}
 			}
 		}),
