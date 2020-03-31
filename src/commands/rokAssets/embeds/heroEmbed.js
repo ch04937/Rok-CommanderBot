@@ -7,11 +7,11 @@ const blue = 0x3a8bdf;
 const card = "Commander Sheet";
 
 const names = {
-	aethefled: {
+	aetheflead: {
 		color: gold,
-		title: ` Aethefled ${card}`,
+		title: ` Aetheflead ${card}`,
 		author: {
-			name: "Aethefled",
+			name: "Aetheflead",
 			icon_url:
 				"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiuIWZTOc8qYfDnhtwAkd1eShN71u0R_VuzEo35FiQFhRsadE&s",
 		},
