@@ -397,7 +397,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.8 \nBarracks Lv.8",
+				value: "Wall Lv.8 \nAlliance Center Lv.8",
 				inline: true,
 			},
 			{
@@ -443,7 +443,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.9 \nBarracks Lv.9",
+				value: "Wall Lv.9 \nAcademy Lv.9",
 				inline: true,
 			},
 			{
@@ -489,7 +489,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.10 \nBarracks Lv.10",
+				value: "Wall Lv.10 \nHospital Lv.10",
 				inline: true,
 			},
 			{
