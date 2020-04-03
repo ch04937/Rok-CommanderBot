@@ -782,7 +782,7 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			"If you are looking for nuke build try !tree kusu nuke. If you are looking for an garrison build try !tree kusu garrison",
+			"If you are looking for nuke build try !tree kusu nuke. If you are looking for an garrison build try !tree kusunoki garrison",
 		thumbnail: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
@@ -790,6 +790,43 @@ const names = {
 		image: {
 			url:
 				"https://rok.guide/wp-content/uploads/2019/11/kusunoki-masashige-field-battle-1024x574.png",
+		},
+	},
+	kusunoki6: {
+		color: purple,
+		title: `Kusunoki ${card}`,
+		author: {
+			name: "Kusunoki",
+			icon_url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
+		},
+		description: "If you are looking for nuke build try !tree kusu nuke.",
+		thumbnail: {
+			url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
+		},
+		image: {
+			url:
+				"https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/KUSUNOKI_TALENTS_GARRISON.png?resize=1024%2C577&ssl=1",
+		},
+	},
+	kusunoki2: {
+		color: purple,
+		title: `Kusunoki ${card}`,
+		author: {
+			name: "Kusunoki",
+			icon_url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
+		},
+		description:
+			"If you are looking for garrison build try !tree kusunoki garrison.",
+		thumbnail: {
+			url:
+				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
+		},
+		image: {
+			url:
+				"https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/KUSUNOKI_TALENTS_NUKER.png?resize=1024%2C577&ssl=1",
 		},
 	},
 	pelagius: {
