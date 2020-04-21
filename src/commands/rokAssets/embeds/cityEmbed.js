@@ -1079,7 +1079,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.23 \nStorehouse Lv.23\n",
+				value: "Wall Lv.23 \nSeige Workshop Lv.23\n",
 				inline: true,
 			},
 			{
