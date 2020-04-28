@@ -560,7 +560,7 @@ const names = {
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1",
 		},
 		description:
-			" if you are looking for archer build try !tree her arch. If you are looking for nuker build try !tree her nuke",
+			" if you are looking for archer build try !tree hermann arch. If you are looking for nuker build try !tree hermann nuke",
 		thumbnail: {
 			url:
 				"https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1",

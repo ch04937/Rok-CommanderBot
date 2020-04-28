@@ -944,7 +944,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.20 \nAlliance Center Lv.20\n",
+				value: "Wall Lv.20 \nAcademy Lv.20\n",
 				inline: true,
 			},
 			{

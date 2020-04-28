@@ -7,6 +7,8 @@ const client = new Discord.Client();
 
 //env vars
 const BOT_TOKEN = process.env.BOT_TOKEN;
+const RXE_GUILD = process.env.RXE_GUILD;
+const TESTING_GUILD = process.env.TESTING_GUILD;
 let ver = process.env.NODE_ENV;
 
 //all bot commands
@@ -35,8 +37,29 @@ client.on("ready", () => {
 		});
 	}
 });
+// client.on("guildMemberAdd", (member) => {
+// 	if (member.guild.id === TESTING_GUILD) {
+// 		const channel = member.guild.channels.find(
+// 			(channel) => channel.name === "general"
+// 		);
+// 		if (!channel) return;
 
-client.on("message", message => {
+// 		const player = {
+// 			color: 0xff33e9,
+// 			title: `Welcome to the server ${member.user.username}`,
+// 			author: {
+// 				name: member.user.username,
+// 				icon_url: member.user.displayAvatarURL(),
+// 			},
+// 			description: `Thank you for joining us `,
+// 			thumbnail: {
+// 				url: member.guild.iconURL(),
+// 			},
+// 		};
+// 		channel.send({ embed: player });
+// 	}
+// });
+client.on("message", (message) => {
 	if (message.content[0] === prefix) {
 		const command = message.content.split(" ")[0].substr(1);
 		commands.handle(command, message);
