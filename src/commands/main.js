@@ -4,6 +4,7 @@ const sunTzu = require("./miscellaneous/sunQoute");
 const donate = require("./miscellaneous/donate");
 const poll = require("./miscellaneous/poll");
 const update = require("./miscellaneous/update");
+const rps = require("./miscellaneous/rps");
 
 const castle = require("./rokAssets/castle");
 const upgrade = require("./rokAssets/cityHall");
@@ -21,6 +22,7 @@ const commands = [
 	donate,
 	castle,
 	update,
+	rps,
 ].reduce((all, cmd) => {
 	cmd.triggers.forEach((trigger) => (all[trigger] = cmd.handler));
 	descriptions += `**${cmd.name}** - ${cmd.description}
