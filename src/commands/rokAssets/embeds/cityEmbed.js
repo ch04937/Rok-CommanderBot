@@ -989,7 +989,7 @@ const levels = {
 			},
 			{
 				name: "Requirements",
-				value: "Wall Lv.21 \nAlliance Center Lv.21\n",
+				value: "Wall Lv.21 \nHospital Lv.21\n",
 				inline: true,
 			},
 			{
