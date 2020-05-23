@@ -7,9 +7,9 @@ const results = [
 ];
 
 const resultMap = {
-	t: "Tie",
-	u: "You Win",
-	c: "You Lose",
+	t: "It is a Tie!",
+	u: "You Win!",
+	c: "You Lose!",
 };
 
 module.exports = {
@@ -30,10 +30,22 @@ module.exports = {
 		let computerChoiceIndex = choices.indexOf(computer_choice);
 
 		// get resutls
-
 		let userResult = results[computerChoiceIndex][userChoiceIndex];
-		console.log(
-			`user plays ${player_choice} and the computer plays, ${computer_choice} which means ${resultMap[userResult]}`
-		);
+
+		const rps = {
+			color: 0xf66108,
+			title: "Rock, Paper, Scizzors",
+			author: {
+				name: `Lets Play`,
+				icon_url:
+					"https://miro.medium.com/max/2000/1*FEcr9_owB5KplrClDpRenA.png",
+			},
+			description: `${message.author} plays ${player_choice}\n\n while I play, ${computer_choice} \n\nResults ${resultMap[userResult]} \n\nThank you for playing.`,
+			thumbnail: {
+				url:
+					"https://miro.medium.com/max/2000/1*FEcr9_owB5KplrClDpRenA.png",
+			},
+		};
+		return message.channel.send({ embed: rps });
 	},
 };
