@@ -16,7 +16,9 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
+    "easytimer.js": "^4.3.0",
     "fortune-tweetable": "^1.0.0",
+    "knex": "^0.21.1",
     "sun-tzu-quotes": "^1.0.0"
   },
   "devDependencies": {
