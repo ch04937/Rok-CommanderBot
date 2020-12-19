@@ -1,12 +1,11 @@
+const { RichEmbed } = require("discord.js");
 // features
 const eightBall = require("./miscellaneous/eightBall");
 const sunTzu = require("./miscellaneous/sunQoute");
 const donate = require("./miscellaneous/donate");
 const poll = require("./miscellaneous/poll");
-const update = require("./miscellaneous/update");
 const rps = require("./miscellaneous/rps");
 const countdown = require("./miscellaneous/countdown");
-
 const castle = require("./rokAssets/castle");
 const upgrade = require("./rokAssets/cityHall");
 const commander = require("./rokAssets/commander");
@@ -22,26 +21,26 @@ const commands = [
   poll,
   donate,
   castle,
-  update,
   rps,
   countdown,
 ].reduce((all, cmd) => {
   cmd.triggers.forEach((trigger) => (all[trigger] = cmd.handler));
-  descriptions += `**${cmd.name}** - ${cmd.description}
-Usage: ${cmd.triggers.map((t) => "!" + t).join(" or ")} ${cmd.example || ""}
-
-`;
+  descriptions += `**${cmd.name}** - ${cmd.description}\nUsage: ${cmd.triggers}\n\n`;
   return all;
 }, {});
 
-const allCommands = (message) => {
-  return message.channel.send(descriptions);
+commands["bot"] = (message) => {
+  return message.channel.send(
+    new RichEmbed()
+      .setColor("#1ba8f0")
+      .setTitle("Bot Commands")
+      .setDescription(descriptions)
+      .setFooter("Best Rok Guide")
+  );
 };
 
-commands["bot"] = allCommands;
-
 module.exports = {
-  handle: (command, message) => {
+  handler: (command, message) => {
     // checks if message was sent by a bot
     if (message.author.bot) return;
     if (command && commands[command]) {
