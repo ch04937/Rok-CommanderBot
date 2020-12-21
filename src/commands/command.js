@@ -35,7 +35,10 @@ commands["bot"] = (message) => {
       .setColor("#1ba8f0")
       .setTitle("Bot Commands")
       .setDescription(descriptions)
-      .setFooter("Best Rok Guide")
+      .setTimestamp()
+      .setFooter(
+        `Thank you for using ROK bot! For more resources come [here.] (https://arc-planner-avuww7k5o.vercel.app/) `
+      )
   );
 };
 

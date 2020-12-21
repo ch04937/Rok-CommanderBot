@@ -1,19 +1,16 @@
-//setting environment variables
 require("dotenv").config();
-const Discord = require("discord.js");
-const client = new Discord.Client();
-
-//all bot commands
+const { Client } = require("discord.js");
 const commands = require("./commands/command");
 
-//testing will display in code land and production will display ready for action
+const client = new Client();
+
 client.on("ready", () => {
   console.log(`\nLogged in as ${client.user.tag} \n`);
   if (process.env.NODE_ENV === "production") {
     client.user.setStatus("online");
     client.user.setPresence({
       game: {
-        name: "In " + client.guilds.size + " Servers",
+        name: `Run "!bot"`,
         type: "PLAYING",
       },
     });
@@ -22,7 +19,7 @@ client.on("ready", () => {
     client.user.setStatus("online");
     client.user.setPresence({
       game: {
-        name: "Dev In " + client.guilds.size + " Servers",
+        name: `Run "!bot"`,
         type: "PLAYING",
       },
     });
