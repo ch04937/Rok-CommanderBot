@@ -1,13 +1,8 @@
 const names = {
   aetheflead: {
     title: ` Aetheflead `,
-    author: {
-      name: "Aetheflead",
-      icon_url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiuIWZTOc8qYfDnhtwAkd1eShN71u0R_VuzEo35FiQFhRsadE&s",
-    },
     description:
-      "Æthelflæd  is right now the goddess of free to play players as you can purchase her sculptures right in the Expedition Store. She is the true life saver of enormous F2P Players.",
+      "Æthelflæd is right now the goddess of free to play players as you can purchase her sculptures right in the Expedition Store. She is the true life saver of enormous F2P Players.",
     thumbnail: {
       url:
         "https://cdn.shopify.com/s/files/1/0258/1712/0802/products/aethelflaed_480x480.png?v=1565823184",
@@ -19,11 +14,6 @@ const names = {
   },
   scipio: {
     title: ` Scipio `,
-    author: {
-      name: "Scipio",
-      icon_url:
-        "https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero14.png?fit=600%2C650&ssl=1",
-    },
     description:
       "Scipio Africanus, Rome’s starting commander, is one of the strongest PVP commander in Rise of Kingdoms especially for free to play players. His skills that significantly improves his troops combat ability makes him a formidable commander in the open field. He is also considered as one of the best defensive commanders due to his first skill, Military Life, which greatly reduces the enemy troop’s damage. And his ability to sustain damage is further increased by his second skill, Patient Warrior, which heals his own troops. He can further be improved by building his talent tree the right way.",
     thumbnail: {
@@ -37,11 +27,6 @@ const names = {
   },
   hannibal: {
     title: ` Hannibal `,
-    author: {
-      name: "Hannibal",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/54/Hannibal_Barca.png/revision/latest?cb=20181107164847",
-    },
     description: "",
     thumbnail: {
       url:
@@ -54,11 +39,6 @@ const names = {
   },
   saladin: {
     title: ` Saladin `,
-    author: {
-      name: "Saladin",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/2d/Saladin.png/revision/latest?cb=20190217114036",
-    },
     description: "",
     thumbnail: {
       url:
@@ -71,11 +51,6 @@ const names = {
   },
   constantine: {
     title: ` Constantine `,
-    author: {
-      name: "Constantine",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/bc/Constantine_I.png/revision/latest?cb=20190217114020",
-    },
     description: "",
     thumbnail: {
       url:
@@ -88,11 +63,6 @@ const names = {
   },
   lohar: {
     title: ` Lohar `,
-    author: {
-      name: "Lohar",
-      icon_url:
-        "https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero37.png?fit=600%2C650&ssl=1",
-    },
     description:
       "Barbaining killing commmander, good for leveling their paired commander",
     thumbnail: {
@@ -106,11 +76,6 @@ const names = {
   },
   boudica: {
     title: ` Boudica `,
-    author: {
-      name: "Boudica",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero17.png?fit=600%2C650&ssl=1",
-    },
     description:
       "To optimally utilize Boudica’s skills, we will mostly build around her Skills Talent Tree and then pick up some talents in Peacekeeping Talent Trees. Unlocking talents that will increase skill damage and increase rage restoration will drastically improve her nuking ability. Her skills that deals massive damage, heals slightly wounded units and restores rage will be maximized if Boudica can unleash skills faster.",
     thumbnail: {
@@ -131,11 +96,6 @@ const names = {
   },
   osman2: {
     title: ` Osman `,
-    author: {
-      name: "Osman",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
-    },
     description:
       "For Osman rally build !tree rally, for leadership build !tree osman ",
     thumbnail: {
@@ -149,11 +109,6 @@ const names = {
   },
   osman: {
     title: ` Osman `,
-    author: {
-      name: "Osman",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
-    },
     description:
       "For Osman rally build !tree rally, for nuke/skill build !tree osman nuke",
     thumbnail: {
@@ -167,11 +122,6 @@ const names = {
   },
   osman3: {
     title: ` Osman `,
-    author: {
-      name: "Osman",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1",
-    },
     description:
       "For Osman nuke/skill build !tree nuke, for leadership build !tree osman ",
     thumbnail: {
@@ -185,11 +135,6 @@ const names = {
   },
   city: {
     title: ` City Keeper `,
-    author: {
-      name: "city",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/9/9d/City_Keeper.png/revision/latest?cb=20181107165426",
-    },
     description: "City Keeper: ",
     thumbnail: {
       url:
@@ -202,11 +147,6 @@ const names = {
   },
   dragon: {
     title: ` Dragon Lancer `,
-    author: {
-      name: "Dragon Lancer",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c4/Dragon_Lancer.png/revision/latest?cb=20181107165413",
-    },
     description: "Dragon Lancer",
     thumbnail: {
       url:
@@ -218,11 +158,6 @@ const names = {
   },
   tomoe: {
     title: ` Tomoe Gozen `,
-    author: {
-      name: "Tomeo Gozen",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/87/Tomoe_Gozen.png/revision/latest?cb=20181107165303",
-    },
     description: "Tomoe Gozen",
     thumbnail: {
       url:
@@ -235,11 +170,6 @@ const names = {
   },
   gengiskhan: {
     title: ` Gengiskhan `,
-    author: {
-      name: "Gengiskhan",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest?cb=20190505172506",
-    },
     description: "",
     thumbnail: {
       url:
@@ -252,11 +182,6 @@ const names = {
   },
   cleopatra: {
     title: ` Cleopatra `,
-    author: {
-      name: "city",
-      icon_url:
-        "http://www.rocfanatics.com/wp-content/uploads/2018/10/rise-of-civilizations-cleopatra-2-372x700.jpg",
-    },
     description: "Cleopatra Support otherwise go with a gathering build",
     thumbnail: {
       url:
@@ -269,11 +194,6 @@ const names = {
   },
   joan: {
     title: `Joan of Arc `,
-    author: {
-      name: "Joan of Arc",
-      icon_url:
-        "https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero15.png?fit=600%2C650&ssl=1",
-    },
     description: "Joan can be used as a support build otherwise max gathering",
     thumbnail: {
       url:
@@ -286,11 +206,6 @@ const names = {
   },
   sun: {
     title: ` Sun Tzu `,
-    author: {
-      name: "Sun Tzu",
-      icon_url:
-        "https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero3-1.png?fit=600%2C650&ssl=1",
-    },
     description: "Sun  ",
     thumbnail: {
       url:
@@ -303,11 +218,6 @@ const names = {
   },
   julius: {
     title: `Julius Ceaser `,
-    author: {
-      name: "Julius Ceaser",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1",
-    },
     description: "Julius  city destroyer !tree julious rally",
     thumbnail: {
       url:
@@ -320,11 +230,6 @@ const names = {
   },
   julius3: {
     title: `Julius Ceaser `,
-    author: {
-      name: "Julius Ceaser",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero1.png?fit=600%2C650&ssl=1",
-    },
     description:
       "Julius  if you are are looking for Julius nuker/skill try !tree jul nuke",
     thumbnail: {
@@ -338,11 +243,6 @@ const names = {
   },
   lancelot: {
     title: `Lancelot `,
-    author: {
-      name: "Lancelot",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/cd/Lancelot.png/revision/latest?cb=20181107165242",
-    },
     description: " ",
     thumbnail: {
       url:
@@ -355,11 +255,6 @@ const names = {
   },
   frederick: {
     title: `Frederick `,
-    author: {
-      name: "Frederick",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
-    },
     description:
       "This is a hybrid build really good when you’re trying to attack governor cities, flags, and fortresses. For nuke/skill !tree frederick nuke",
     thumbnail: {
@@ -373,11 +268,6 @@ const names = {
   },
   frederick2: {
     title: `Frederick `,
-    author: {
-      name: "Frederick",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/ba/Frederick_I.png/revision/latest?cb=20181107164601",
-    },
     description: "PVP fighting in the field use this.  hybrid: !tree frederick",
     thumbnail: {
       url:
@@ -390,11 +280,6 @@ const names = {
   },
   elcid: {
     title: `El Cid `,
-    author: {
-      name: "El Cid",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
-    },
     description:
       "El  if you are looking for a skill build try !tree elcid nuke",
     thumbnail: {
@@ -408,11 +293,6 @@ const names = {
   },
   elcid2: {
     title: `El Cid `,
-    author: {
-      name: "El Cid",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
-    },
     description: "El  if you are looking for an archer build try !tree elcid",
     thumbnail: {
       url:
@@ -425,11 +305,6 @@ const names = {
   },
   mehmed: {
     title: `Mehmed `,
-    author: {
-      name: "Mehmed",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest?cb=20190217114048",
-    },
     description: "blank for now",
     thumbnail: {
       url:
@@ -442,11 +317,6 @@ const names = {
   },
   belisarius: {
     title: `Belisarius `,
-    author: {
-      name: "Belisarius",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
-    },
     description:
       " if you are looking for a cavalry build try !tree Belisarius cavalry",
     thumbnail: {
@@ -460,11 +330,6 @@ const names = {
   },
   belisarius4: {
     title: `Belisarius `,
-    author: {
-      name: "Belisarius",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest?cb=20190217114119",
-    },
     description: " if you are looking for mobility build try !tree belisarius",
     thumbnail: {
       url:
@@ -477,11 +342,6 @@ const names = {
   },
   baibars: {
     title: `Baibars `,
-    author: {
-      name: "Baibars",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
-    },
     description:
       " if you are looking for a cavalry build try !tree baibars cavalry",
     thumbnail: {
@@ -495,11 +355,6 @@ const names = {
   },
   baibars4: {
     title: `Beibars `,
-    author: {
-      name: "Beibars",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
-    },
     description: " if you are looking for skill/skill build try !tree bei",
     thumbnail: {
       url:
@@ -512,11 +367,6 @@ const names = {
   },
   hermann: {
     title: `Hermann `,
-    author: {
-      name: "Hermann",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1",
-    },
     description:
       " if you are looking for archer build try !tree hermann arch. If you are looking for nuker build try !tree hermann nuke",
     thumbnail: {
@@ -530,11 +380,6 @@ const names = {
   },
   hermann5: {
     title: `Hermann `,
-    author: {
-      name: "Hermann",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1",
-    },
     description:
       " if you are looking for a garrison build try !tree hermann. If you are looking for a nuker build try !tree hermann nuke",
     thumbnail: {
@@ -548,11 +393,6 @@ const names = {
   },
   hermann2: {
     title: `Hermann `,
-    author: {
-      name: "Hermann",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero12.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for garison build try !tree hermann. If you are looking for an archer build try !tree hermann archer",
     thumbnail: {
@@ -566,11 +406,6 @@ const names = {
   },
   eulji: {
     title: `Eulji Mundeok `,
-    author: {
-      name: "Eulji Mundeok",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for garrison build try !tree eulji garrison.",
     thumbnail: {
@@ -584,11 +419,6 @@ const names = {
   },
   eulji6: {
     title: `Eulji Mundeok `,
-    author: {
-      name: "Eulji Mundeok",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero16.png?fit=600%2C650&ssl=1",
-    },
     description: "If you are looking for a mix build try !tree eulji",
     thumbnail: {
       url:
@@ -601,11 +431,6 @@ const names = {
   },
   charles6: {
     title: `Charles Martel `,
-    author: {
-      name: "Charles Martel",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
-    },
     description: "If you are looking for mix build try !tree charles",
     thumbnail: {
       url:
@@ -618,11 +443,6 @@ const names = {
   },
   charles: {
     title: `Charles Martel `,
-    author: {
-      name: "Charles Martel",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/22/Charles_Martel.png/revision/latest?cb=20181107164815",
-    },
     description: "If you are looking for garrison !tree charles garrison",
     thumbnail: {
       url:
@@ -635,11 +455,6 @@ const names = {
   },
   cao: {
     title: `Cao Cao `,
-    author: {
-      name: "Cao Cao",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
-    },
     description: "For Cao Cao mobility try !tree cao mobility",
     thumbnail: {
       url:
@@ -652,11 +467,6 @@ const names = {
   },
   cao9: {
     title: `Cao Cao `,
-    author: {
-      name: "Cao Cao",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b0/Cao_Cao.png/revision/latest?cb=20181107164543",
-    },
     description: "For a calvalry Build try !tree cao",
     thumbnail: {
       url:
@@ -669,11 +479,6 @@ const names = {
   },
   yi: {
     title: `Yi Seong-Gye `,
-    author: {
-      name: "Yi Seong-Gye",
-      icon_url:
-        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d0/Yi_Seong-Gye.png/revision/latest?cb=20181107164706",
-    },
     description: "Yi Seong- ",
     thumbnail: {
       url:
@@ -686,11 +491,6 @@ const names = {
   },
   richard: {
     title: `Richard `,
-    author: {
-      name: "Richard",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for an infantry build try !tree richard infantry",
     thumbnail: {
@@ -704,11 +504,6 @@ const names = {
   },
   richard7: {
     title: `Richard `,
-    author: {
-      name: "Richard",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero8.png?fit=600%2C650&ssl=1",
-    },
     description: "If you are looking for garrison build try !tree richard .",
     thumbnail: {
       url:
@@ -721,11 +516,6 @@ const names = {
   },
   kusunoki: {
     title: `Kusunoki `,
-    author: {
-      name: "Kusunoki",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for skill build try !tree kusu nuke. If you are looking for an garrison build try !tree kusunoki garrison",
     thumbnail: {
@@ -739,11 +529,6 @@ const names = {
   },
   kusunoki6: {
     title: `Kusunoki `,
-    author: {
-      name: "Kusunoki",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-    },
     description: "If you are looking for skill build try !tree kusu nuke.",
     thumbnail: {
       url:
@@ -756,11 +541,6 @@ const names = {
   },
   kusunoki2: {
     title: `Kusunoki `,
-    author: {
-      name: "Kusunoki",
-      icon_url:
-        "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for garrison build try !tree kusunoki garrison.",
     thumbnail: {
@@ -774,11 +554,6 @@ const names = {
   },
   pelagius: {
     title: `Pelagius  `,
-    author: {
-      name: "Pelagius ",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
-    },
     description:
       "If you are looking for an garrison build try !tree pelagius garrison",
     thumbnail: {
@@ -792,11 +567,6 @@ const names = {
   },
   pelagius6: {
     title: `Pelagius  `,
-    author: {
-      name: "Pelagius ",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero18-1.png?fit=600%2C650&ssl=1",
-    },
     description:
       "Pelagius if you are looking for a cavalry build try !tree pelagius. ",
     thumbnail: {
@@ -810,11 +580,6 @@ const names = {
   },
   minamoto: {
     title: `Minamoto no Yoshitsune `,
-    author: {
-      name: "Minamoto no Yoshitsune",
-      icon_url:
-        "https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero9.png?fit=600%2C650&ssl=1",
-    },
     description: "Minamoto",
     thumbnail: {
       url:
@@ -827,11 +592,6 @@ const names = {
   },
   alexander: {
     title: `Alexander `,
-    author: {
-      name: "Alexander",
-      icon_url:
-        "https://riseofkingdomsboss.com/wp-content/uploads/2019/04/Alexander_the_Great-162x300.png",
-    },
     description: "Alexander",
     thumbnail: {
       url:
@@ -844,11 +604,6 @@ const names = {
   },
   edward: {
     title: `Edward `,
-    author: {
-      name: "Edward",
-      icon_url:
-        "https://rok.guide/wp-content/uploads/2019/08/edward-of-woodstock-1.jpg",
-    },
     description: "Edward For skill !tree edward nuke",
     thumbnail: {
       url:
@@ -861,11 +616,6 @@ const names = {
   },
   edward2: {
     title: `Edward `,
-    author: {
-      name: "Edward",
-      icon_url:
-        "https://rok.guide/wp-content/uploads/2019/08/edward-of-woodstock-1.jpg",
-    },
     description: "Edward",
     thumbnail: {
       url:

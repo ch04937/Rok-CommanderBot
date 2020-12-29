@@ -1,3 +1,4 @@
+const { boiler } = require("../../utils/embed");
 const { names } = require("./embeds/heroEmbed");
 
 module.exports = {
@@ -9,7 +10,7 @@ module.exports = {
   handler: (message) => {
     const champion = message.content.toLowerCase().split(" ");
     return message.channel.send({
-      embed: names[`${champion[1]}${champion[2] || ""}`],
+      embed: { ...boiler, ...names[`${champion[1]}${champion[2] || ""}`] },
     });
   },
 };

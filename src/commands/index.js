@@ -29,7 +29,7 @@ const commands = {
   ...cmd,
   bot: (message) =>
     message.channel.send({
-      embed: boiler(description, message.client.user.avatarURL),
+      embed: { ...boiler, description: description },
     }),
 };
 
