@@ -1,40 +1,20 @@
-function embed(
-  url,
-  description,
-  author_name,
-  author_icon_url,
-  author_url,
-  field_name,
-  field_content,
-  bot
-) {
+function embed(description, bot) {
   return {
     color: 0x3a8bdf,
-    title: "ROK BOT",
-    url: url,
     author: {
-      name: author_name,
-      icon_url: author_icon_url,
-      url: author_url,
+      name: "Click Here to invite this bot to your server",
+      icon_url: bot,
+      url:
+        "https://discordapp.com/api/oauth2/authorize?client_id=639172234321199118&permissions=1544027248&scope=bot",
     },
     description: description,
-    thumbnail: {
-      url: bot,
-    },
-    fields: [
-      {
-        name: field_name,
-        value: field_content,
-      },
-    ],
     timestamp: new Date(),
     footer: {
-      text: "Thank you for using ROK bot! For more resources",
-      icon_url: bot,
+      text: "Thank you for using ROK bot!",
     },
   };
 }
 
 module.exports = {
-  allCommand: (description, bot) => embed(description, bot),
+  embed,
 };
