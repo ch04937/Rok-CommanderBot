@@ -1,4 +1,3 @@
-// getting embeds
 const castle = require("./embeds/castleEmbed");
 
 module.exports = {

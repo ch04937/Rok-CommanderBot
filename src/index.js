@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Client } = require("discord.js");
-const commands = require("./commands/command");
+const commands = require("./commands");
 
 const client = new Client();
 
@@ -10,7 +10,7 @@ client.on("ready", () => {
     client.user.setStatus("online");
     client.user.setPresence({
       game: {
-        name: `Run "!bot"`,
+        name: `Run "!bot"  for commands`,
         type: "PLAYING",
       },
     });
@@ -19,7 +19,7 @@ client.on("ready", () => {
     client.user.setStatus("online");
     client.user.setPresence({
       game: {
-        name: `Run "!bot"`,
+        name: `Run "!bot" for commands`,
         type: "PLAYING",
       },
     });
