@@ -5,7 +5,6 @@ const commands = require("./commands");
 const client = new Client();
 
 client.on("ready", () => {
-  console.log(`\nLogged in as ${client.user.tag} \n`);
   if (process.env.NODE_ENV === "production") {
     client.user.setStatus("online");
     client.user.setPresence({

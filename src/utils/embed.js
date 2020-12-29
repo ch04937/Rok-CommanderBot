@@ -1,4 +1,4 @@
-function embed(description, bot) {
+function boiler(description, bot) {
   return {
     color: 0x3a8bdf,
     author: {
@@ -16,5 +16,5 @@ function embed(description, bot) {
 }
 
 module.exports = {
-  embed,
+  boiler,
 };

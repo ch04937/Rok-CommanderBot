@@ -1,15 +1,6 @@
-// ⇄
-
-const gold = 0xffd700;
-const purple = 0xff33e9;
-const green = 0x27be52;
-const blue = 0x3a8bdf;
-const card = "Commander Sheet";
-
 const names = {
   aetheflead: {
-    color: gold,
-    title: ` Aetheflead ${card}`,
+    title: ` Aetheflead `,
     author: {
       name: "Aetheflead",
       icon_url:
@@ -27,8 +18,7 @@ const names = {
     },
   },
   scipio: {
-    color: purple,
-    title: ` Scipio ${card}`,
+    title: ` Scipio `,
     author: {
       name: "Scipio",
       icon_url:
@@ -46,8 +36,7 @@ const names = {
     },
   },
   hannibal: {
-    color: gold,
-    title: ` Hannibal ${card}`,
+    title: ` Hannibal `,
     author: {
       name: "Hannibal",
       icon_url:
@@ -64,8 +53,7 @@ const names = {
     },
   },
   saladin: {
-    color: gold,
-    title: ` Saladin ${card}`,
+    title: ` Saladin `,
     author: {
       name: "Saladin",
       icon_url:
@@ -82,8 +70,7 @@ const names = {
     },
   },
   constantine: {
-    color: gold,
-    title: ` Constantine ${card}`,
+    title: ` Constantine `,
     author: {
       name: "Constantine",
       icon_url:
@@ -100,8 +87,7 @@ const names = {
     },
   },
   lohar: {
-    color: purple,
-    title: ` Lohar ${card}`,
+    title: ` Lohar `,
     author: {
       name: "Lohar",
       icon_url:
@@ -119,8 +105,7 @@ const names = {
     },
   },
   boudica: {
-    color: purple,
-    title: ` Boudica ${card}`,
+    title: ` Boudica `,
     author: {
       name: "Boudica",
       icon_url:
@@ -145,8 +130,7 @@ const names = {
     },
   },
   osman2: {
-    color: purple,
-    title: ` Osman ${card}`,
+    title: ` Osman `,
     author: {
       name: "Osman",
       icon_url:
@@ -164,8 +148,7 @@ const names = {
     },
   },
   osman: {
-    color: purple,
-    title: ` Osman ${card}`,
+    title: ` Osman `,
     author: {
       name: "Osman",
       icon_url:
@@ -183,8 +166,7 @@ const names = {
     },
   },
   osman3: {
-    color: purple,
-    title: ` Osman ${card}`,
+    title: ` Osman `,
     author: {
       name: "Osman",
       icon_url:
@@ -202,8 +184,7 @@ const names = {
     },
   },
   city: {
-    color: green,
-    title: ` City Keeper ${card}`,
+    title: ` City Keeper `,
     author: {
       name: "city",
       icon_url:
@@ -220,8 +201,7 @@ const names = {
     },
   },
   dragon: {
-    color: green,
-    title: ` Dragon Lancer ${card}`,
+    title: ` Dragon Lancer `,
     author: {
       name: "Dragon Lancer",
       icon_url:
@@ -237,8 +217,7 @@ const names = {
     },
   },
   tomoe: {
-    color: blue,
-    title: ` Tomoe Gozen ${card}`,
+    title: ` Tomoe Gozen `,
     author: {
       name: "Tomeo Gozen",
       icon_url:
@@ -255,8 +234,7 @@ const names = {
     },
   },
   gengiskhan: {
-    color: gold,
-    title: ` Gengiskhan ${card}`,
+    title: ` Gengiskhan `,
     author: {
       name: "Gengiskhan",
       icon_url:
@@ -273,8 +251,7 @@ const names = {
     },
   },
   cleopatra: {
-    color: gold,
-    title: ` Cleopatra ${card}`,
+    title: ` Cleopatra `,
     author: {
       name: "city",
       icon_url:
@@ -291,8 +268,7 @@ const names = {
     },
   },
   joan: {
-    color: purple,
-    title: `Joan of Arc ${card}`,
+    title: `Joan of Arc `,
     author: {
       name: "Joan of Arc",
       icon_url:
@@ -309,8 +285,7 @@ const names = {
     },
   },
   sun: {
-    color: purple,
-    title: ` Sun Tzu ${card}`,
+    title: ` Sun Tzu `,
     author: {
       name: "Sun Tzu",
       icon_url:
@@ -327,8 +302,7 @@ const names = {
     },
   },
   julius: {
-    color: gold,
-    title: `Julius Ceaser ${card}`,
+    title: `Julius Ceaser `,
     author: {
       name: "Julius Ceaser",
       icon_url:
@@ -345,8 +319,7 @@ const names = {
     },
   },
   julius3: {
-    color: gold,
-    title: `Julius Ceaser ${card}`,
+    title: `Julius Ceaser `,
     author: {
       name: "Julius Ceaser",
       icon_url:
@@ -364,8 +337,7 @@ const names = {
     },
   },
   lancelot: {
-    color: blue,
-    title: `Lancelot ${card}`,
+    title: `Lancelot `,
     author: {
       name: "Lancelot",
       icon_url:
@@ -382,8 +354,7 @@ const names = {
     },
   },
   frederick: {
-    color: blue,
-    title: `Frederick ${card}`,
+    title: `Frederick `,
     author: {
       name: "Frederick",
       icon_url:
@@ -401,8 +372,7 @@ const names = {
     },
   },
   frederick2: {
-    color: blue,
-    title: `Frederick ${card}`,
+    title: `Frederick `,
     author: {
       name: "Frederick",
       icon_url:
@@ -419,14 +389,14 @@ const names = {
     },
   },
   elcid: {
-    color: gold,
-    title: `El Cid ${card}`,
+    title: `El Cid `,
     author: {
       name: "El Cid",
       icon_url:
         "https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
     },
-    description: "El  if you are looking for a nuke build try !tree elcid nuke",
+    description:
+      "El  if you are looking for a skill build try !tree elcid nuke",
     thumbnail: {
       url:
         "https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/El_Cid.png/revision/latest?cb=20181107164512",
@@ -437,8 +407,7 @@ const names = {
     },
   },
   elcid2: {
-    color: gold,
-    title: `El Cid ${card}`,
+    title: `El Cid `,
     author: {
       name: "El Cid",
       icon_url:
@@ -455,8 +424,7 @@ const names = {
     },
   },
   mehmed: {
-    color: gold,
-    title: `Mehmed ${card}`,
+    title: `Mehmed `,
     author: {
       name: "Mehmed",
       icon_url:
@@ -473,8 +441,7 @@ const names = {
     },
   },
   belisarius: {
-    color: purple,
-    title: `Belisarius ${card}`,
+    title: `Belisarius `,
     author: {
       name: "Belisarius",
       icon_url:
@@ -492,8 +459,7 @@ const names = {
     },
   },
   belisarius4: {
-    color: purple,
-    title: `Belisarius ${card}`,
+    title: `Belisarius `,
     author: {
       name: "Belisarius",
       icon_url:
@@ -510,8 +476,7 @@ const names = {
     },
   },
   baibars: {
-    color: purple,
-    title: `Baibars ${card}`,
+    title: `Baibars `,
     author: {
       name: "Baibars",
       icon_url:
@@ -529,14 +494,13 @@ const names = {
     },
   },
   baibars4: {
-    color: purple,
-    title: `Beibars ${card}`,
+    title: `Beibars `,
     author: {
       name: "Beibars",
       icon_url:
         "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
     },
-    description: " if you are looking for skill/nuke build try !tree bei",
+    description: " if you are looking for skill/skill build try !tree bei",
     thumbnail: {
       url:
         "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/51/Baibars.png/revision/latest?cb=20190424194500",
@@ -547,8 +511,7 @@ const names = {
     },
   },
   hermann: {
-    color: purple,
-    title: `Hermann ${card}`,
+    title: `Hermann `,
     author: {
       name: "Hermann",
       icon_url:
@@ -566,8 +529,7 @@ const names = {
     },
   },
   hermann5: {
-    color: purple,
-    title: `Hermann ${card}`,
+    title: `Hermann `,
     author: {
       name: "Hermann",
       icon_url:
@@ -585,8 +547,7 @@ const names = {
     },
   },
   hermann2: {
-    color: purple,
-    title: `Hermann ${card}`,
+    title: `Hermann `,
     author: {
       name: "Hermann",
       icon_url:
@@ -604,8 +565,7 @@ const names = {
     },
   },
   eulji: {
-    color: purple,
-    title: `Eulji Mundeok ${card}`,
+    title: `Eulji Mundeok `,
     author: {
       name: "Eulji Mundeok",
       icon_url:
@@ -623,8 +583,7 @@ const names = {
     },
   },
   eulji6: {
-    color: purple,
-    title: `Eulji Mundeok ${card}`,
+    title: `Eulji Mundeok `,
     author: {
       name: "Eulji Mundeok",
       icon_url:
@@ -641,8 +600,7 @@ const names = {
     },
   },
   charles6: {
-    color: gold,
-    title: `Charles Martel ${card}`,
+    title: `Charles Martel `,
     author: {
       name: "Charles Martel",
       icon_url:
@@ -659,8 +617,7 @@ const names = {
     },
   },
   charles: {
-    color: gold,
-    title: `Charles Martel ${card}`,
+    title: `Charles Martel `,
     author: {
       name: "Charles Martel",
       icon_url:
@@ -677,8 +634,7 @@ const names = {
     },
   },
   cao: {
-    color: gold,
-    title: `Cao Cao ${card}`,
+    title: `Cao Cao `,
     author: {
       name: "Cao Cao",
       icon_url:
@@ -695,8 +651,7 @@ const names = {
     },
   },
   cao9: {
-    color: gold,
-    title: `Cao Cao ${card}`,
+    title: `Cao Cao `,
     author: {
       name: "Cao Cao",
       icon_url:
@@ -713,8 +668,7 @@ const names = {
     },
   },
   yi: {
-    color: gold,
-    title: `Yi Seong-Gye ${card}`,
+    title: `Yi Seong-Gye `,
     author: {
       name: "Yi Seong-Gye",
       icon_url:
@@ -731,8 +685,7 @@ const names = {
     },
   },
   richard: {
-    color: gold,
-    title: `Richard ${card}`,
+    title: `Richard `,
     author: {
       name: "Richard",
       icon_url:
@@ -750,8 +703,7 @@ const names = {
     },
   },
   richard7: {
-    color: gold,
-    title: `Richard ${card}`,
+    title: `Richard `,
     author: {
       name: "Richard",
       icon_url:
@@ -768,15 +720,14 @@ const names = {
     },
   },
   kusunoki: {
-    color: purple,
-    title: `Kusunoki ${card}`,
+    title: `Kusunoki `,
     author: {
       name: "Kusunoki",
       icon_url:
         "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
     },
     description:
-      "If you are looking for nuke build try !tree kusu nuke. If you are looking for an garrison build try !tree kusunoki garrison",
+      "If you are looking for skill build try !tree kusu nuke. If you are looking for an garrison build try !tree kusunoki garrison",
     thumbnail: {
       url:
         "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
@@ -787,14 +738,13 @@ const names = {
     },
   },
   kusunoki6: {
-    color: purple,
-    title: `Kusunoki ${card}`,
+    title: `Kusunoki `,
     author: {
       name: "Kusunoki",
       icon_url:
         "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
     },
-    description: "If you are looking for nuke build try !tree kusu nuke.",
+    description: "If you are looking for skill build try !tree kusu nuke.",
     thumbnail: {
       url:
         "https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_Hero13.png?fit=600%2C650&ssl=1",
@@ -805,8 +755,7 @@ const names = {
     },
   },
   kusunoki2: {
-    color: purple,
-    title: `Kusunoki ${card}`,
+    title: `Kusunoki `,
     author: {
       name: "Kusunoki",
       icon_url:
@@ -824,8 +773,7 @@ const names = {
     },
   },
   pelagius: {
-    color: purple,
-    title: `Pelagius  ${card}`,
+    title: `Pelagius  `,
     author: {
       name: "Pelagius ",
       icon_url:
@@ -843,8 +791,7 @@ const names = {
     },
   },
   pelagius6: {
-    color: purple,
-    title: `Pelagius  ${card}`,
+    title: `Pelagius  `,
     author: {
       name: "Pelagius ",
       icon_url:
@@ -862,8 +809,7 @@ const names = {
     },
   },
   minamoto: {
-    color: gold,
-    title: `Minamoto no Yoshitsune ${card}`,
+    title: `Minamoto no Yoshitsune `,
     author: {
       name: "Minamoto no Yoshitsune",
       icon_url:
@@ -880,8 +826,7 @@ const names = {
     },
   },
   alexander: {
-    color: gold,
-    title: `Alexander ${card}`,
+    title: `Alexander `,
     author: {
       name: "Alexander",
       icon_url:
@@ -898,8 +843,7 @@ const names = {
     },
   },
   edward: {
-    color: gold,
-    title: `Edward ${card}`,
+    title: `Edward `,
     author: {
       name: "Edward",
       icon_url:
@@ -916,8 +860,7 @@ const names = {
     },
   },
   edward2: {
-    color: gold,
-    title: `Edward ${card}`,
+    title: `Edward `,
     author: {
       name: "Edward",
       icon_url:

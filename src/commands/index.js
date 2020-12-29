@@ -7,7 +7,7 @@ const countdown = require("./miscellaneous/countdown");
 const castle = require("./rokAssets/castle");
 const upgrade = require("./rokAssets/cityHall");
 const commander = require("./rokAssets/commander");
-const { embed } = require("../utils/embed");
+const { boiler } = require("../utils/embed");
 
 let description = "";
 const cmd = [
@@ -29,7 +29,7 @@ const commands = {
   ...cmd,
   bot: (message) =>
     message.channel.send({
-      embed: embed(description, message.client.user.avatarURL),
+      embed: boiler(description, message.client.user.avatarURL),
     }),
 };
 
