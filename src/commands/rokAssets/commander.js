@@ -4,7 +4,7 @@ const { names } = require("./embeds/heroEmbed");
 module.exports = {
   name: "Commanders",
   description:
-    "Gives optimal ways to play a specific commander. Talent trees, and  " +
+    "Gives optimal ways to play a specific commander. Talent trees, and " +
     "best pairings. You have to give the first name of the commander",
   triggers: ["tree"],
   handler: (message) => {
