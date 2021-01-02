@@ -1,26 +1,10 @@
-// ⇄
-const stone = 0x888c8d;
-const bronze = 0xcd7f32;
-const iron = 0x9c9a99;
-const dark = 0x000000;
-const fuedalAge = 0xf66108;
-const city = "City Hall Level";
 const cityimg =
   "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/59/Building_City_Hall_1_5.png/revision/latest?cb=20181114154456";
 
 const levels = {
   1: {
-    color: stone,
-    title: `${city} 1 development `,
-    author: {
-      name: "City Hall level 1 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 1, You have started your journey congratulations!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -56,17 +40,8 @@ const levels = {
   },
 
   2: {
-    color: stone,
-    title: `${city} 2 `,
-    author: {
-      name: "City Hall level 2 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 2, You have started your journey congratulations!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -102,17 +77,8 @@ const levels = {
   },
 
   3: {
-    color: stone,
-    title: `${city} 3 `,
-    author: {
-      name: "City Hall level 3 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 3, You have started your journed congratulations!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -148,17 +114,8 @@ const levels = {
   },
 
   4: {
-    color: bronze,
-    title: `${city} 3 `,
-    author: {
-      name: "City Hall level 3 The Bronze Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 3, You are officialy out of the tutorial stage! Isnt that lovely!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -194,16 +151,7 @@ const levels = {
   },
 
   5: {
-    color: bronze,
-    title: `${city} 5 `,
-    author: {
-      name: "City Hall level 5 The Bronze Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 5, Keep pushing!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -239,16 +187,7 @@ const levels = {
   },
 
   6: {
-    color: stone,
-    title: `${city} 6 `,
-    author: {
-      name: "City Hall level 6 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 6, Nothing special here keep leveling up!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -284,17 +223,8 @@ const levels = {
   },
 
   7: {
-    color: stone,
-    title: `${city} 7 `,
-    author: {
-      name: "City Hall level 7 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 7, Becareful Here! Begginers teleport is a useful tool for more info ask your Leader",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -330,17 +260,8 @@ const levels = {
   },
 
   8: {
-    color: stone,
-    title: `${city} 8 `,
-    author: {
-      name: "City Hall level 8 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 8, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -376,17 +297,8 @@ const levels = {
   },
 
   9: {
-    color: stone,
-    title: `${city} 9 `,
-    author: {
-      name: "City Hall level 9 The Stone Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 9, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -422,17 +334,8 @@ const levels = {
   },
 
   10: {
-    color: iron,
-    title: `${city} 10 `,
-    author: {
-      name: "City Hall level 10 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 10, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -468,17 +371,8 @@ const levels = {
   },
 
   11: {
-    color: iron,
-    title: `${city} 11 `,
-    author: {
-      name: "City Hall level 11 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 11, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -514,17 +408,8 @@ const levels = {
   },
 
   12: {
-    color: iron,
-    title: `${city} 12 `,
-    author: {
-      name: "City Hall level 12 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 12, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -560,17 +445,8 @@ const levels = {
   },
 
   13: {
-    color: iron,
-    title: `${city} 13 `,
-    author: {
-      name: "City Hall level 13 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 13, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -606,17 +482,8 @@ const levels = {
   },
 
   14: {
-    color: iron,
-    title: `${city} 14 `,
-    author: {
-      name: "City Hall level 14 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 14, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -652,17 +519,8 @@ const levels = {
   },
 
   15: {
-    color: iron,
-    title: `${city} 15 `,
-    author: {
-      name: "City Hall level 15 The Iron Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 15, Lets do this! Level up fast to city hall lv.16 for T3 troops",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -698,17 +556,8 @@ const levels = {
   },
 
   16: {
-    color: dark,
-    title: `${city} 16 `,
-    author: {
-      name: "City Hall level 16 The Dark Age",
-      icon_url: `${cityimg}`,
-    },
     description:
       "City Hall Level 16, Tier 3 is unlocked at this Level at 21 Tier 4",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -744,16 +593,7 @@ const levels = {
   },
 
   17: {
-    color: dark,
-    title: `${city} 17 `,
-    author: {
-      name: "City Hall level 17 The Dark Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 17, at City Hall 21 Tier 4",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -789,16 +629,7 @@ const levels = {
   },
 
   18: {
-    color: dark,
-    title: `${city} 18 `,
-    author: {
-      name: "City Hall level 18 The Dark Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 18, at City Hall 21 Tier 4",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -834,16 +665,7 @@ const levels = {
   },
 
   19: {
-    color: dark,
-    title: `${city} 19 `,
-    author: {
-      name: "City Hall level 19 The Dark Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 19, at City Hall 21 Tier 4",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -879,16 +701,7 @@ const levels = {
   },
 
   20: {
-    color: dark,
-    title: `${city} 20 `,
-    author: {
-      name: "City Hall level 20 The Dark Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 20, at City Hall 21 Tier 4",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -924,16 +737,7 @@ const levels = {
   },
 
   21: {
-    color: fuedalAge,
-    title: `${city} 21 `,
-    author: {
-      name: "City Hall level 21 The Fuedal Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 21, Tier 4 Troops!",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -969,16 +773,7 @@ const levels = {
   },
 
   22: {
-    color: fuedalAge,
-    title: `${city} 22 `,
-    author: {
-      name: "City Hall level 22 The Fuedal Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 22, ",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -1014,16 +809,7 @@ const levels = {
   },
 
   23: {
-    color: fuedalAge,
-    title: `${city} 23 `,
-    author: {
-      name: "City Hall level 23 The Fuedal Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 23, ",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -1059,16 +845,7 @@ const levels = {
   },
 
   24: {
-    color: fuedalAge,
-    title: `${city} 24 `,
-    author: {
-      name: "City Hall level 24 The Fuedal Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 24, ",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",
@@ -1104,16 +881,7 @@ const levels = {
   },
 
   25: {
-    color: fuedalAge,
-    title: `${city} 25 `,
-    author: {
-      name: "City Hall level 25 The Fuedal Age",
-      icon_url: `${cityimg}`,
-    },
     description: "City Hall Level 25, ",
-    thumbnail: {
-      url: `${cityimg}`,
-    },
     fields: [
       {
         name: "Unlocks",

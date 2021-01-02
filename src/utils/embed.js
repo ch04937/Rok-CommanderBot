@@ -25,7 +25,7 @@ const formatEmbed = (embed) => {
     fields: [
       {
         name: "Other Commander Builds Include:",
-        value: `!tree ${embed.name.toLowerCase()} ${embed.other_builds}`,
+        value: `!tree ${embed.name.toLowerCase()} ${embed.other_builds || " "}`,
       },
     ],
   };
@@ -40,8 +40,45 @@ const errorEmbed = () => {
     },
   };
 };
+const formatEmbedCity = (embed) => {
+  return {
+    ...boiler,
+    description: embed.description,
+    thumbnail: {
+      url:
+        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/59/Building_City_Hall_1_5.png/revision/latest?cb=20181114154456",
+    },
+    fields: [
+      {
+        name: "Unlocks",
+        value: embed.unlocks,
+      },
+      {
+        name: "Requirements",
+        value: embed.requirements,
+      },
+      {
+        name: "Troop Capacity",
+        value: embed.troop,
+      },
+      {
+        name: "Cost",
+        value: embed.cost,
+      },
+      {
+        name: "Time",
+        value: embed.time,
+      },
+      {
+        name: "Power",
+        value: embed.power,
+      },
+    ],
+  };
+};
 module.exports = {
   boiler,
   formatEmbed,
+  formatEmbedCity,
   errorEmbed,
 };
