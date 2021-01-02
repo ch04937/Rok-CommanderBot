@@ -1,21 +1,34 @@
-const { boiler } = require("../../utils/embed");
-// const { names } = require("./embeds/heroEmbed");
+const { formatEmbed, errorEmbed } = require("../../utils/embed");
 const { getCommander } = require("./rok_modal");
+
+const builds = {
+  skill: "SKILL",
+  garrison: "GARRISON",
+  leadership: "LEADERSHIP",
+  city: "CITY",
+  cavalry: "CAVALRY",
+};
 
 module.exports = {
   name: "Commanders",
-  description:
-    "Gives optimal ways to play a specific commander. Talent trees, and " +
-    "best pairings. You have to give the first name of the commander",
+  description: "Optimal builds for a commander in Rise of Kingdoms",
   triggers: ["tree"],
   handler: async (message) => {
-    const champion = message.content.toLowerCase().split(" ");
-    const commander = await getCommander(
-      `${champion[1]}${champion[2] ? " " + champion[2] : ""}`.toUpperCase()
-    );
-    console.log("commander", commander);
-    return message.channel.send({
-      embed: { ...boiler },
-    });
+    const msg = message.content.split(" ").slice(1);
+    let champion = "";
+    let build = "";
+    if (!builds[msg[msg.length - 1]]) {
+      champion = msg.join(" ").toUpperCase();
+      build = null;
+    } else {
+      build = msg[msg.length - 1].toUpperCase();
+      msg.pop();
+      champion = msg.join(" ").toUpperCase();
+    }
+    const commander = await getCommander(champion, build);
+    if (commander.length === 0) {
+      return message.channel.send({ embed: errorEmbed() });
+    }
+    return message.channel.send({ embed: formatEmbed(commander.pop()) });
   },
 };
