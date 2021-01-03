@@ -10,17 +10,9 @@ const Castleimg =
 
 const levels = {
   1: {
-    color: stone,
-    title: `${Castle} 1 development `,
-    author: {
-      name: "Castle level 1 The Stone Age",
-      icon_url: `${Castleimg}`,
-    },
     description:
       "Castle Level 1, You have started your journey congratulations!",
-    thumbnail: {
-      url: `${Castleimg}`,
-    },
+
     fields: [
       {
         name: "Requirements",
@@ -28,7 +20,7 @@ const levels = {
         inline: true,
       },
       {
-        name: "Rallied Army Capacity",
+        name: "Rallied Capacity",
         value: "25,000",
         inline: true,
       },
