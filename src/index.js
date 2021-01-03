@@ -1,8 +1,19 @@
 require("dotenv").config();
 const { Client } = require("discord.js");
 const commands = require("./commands");
+const express = require("express");
+const helmet = require("helmet");
+const cors = require("cors");
 
+const router = require("./router/server");
+const port = process.env.PORT || 400;
 const client = new Client();
+const server = express();
+
+server.use(helmet());
+server.use(cors());
+server.use(express.json());
+server.use("/api/rok/", router);
 
 client.on("ready", () => {
   if (process.env.NODE_ENV === "production") {
@@ -24,7 +35,6 @@ client.on("ready", () => {
     });
   }
 });
-
 client.on("message", (message) => {
   if (message.content[0] === "!") {
     const command = message.content.split(" ")[0].substr(1);
@@ -33,3 +43,6 @@ client.on("message", (message) => {
 });
 
 client.login(process.env.BOT_TOKEN);
+
+server.get("/", (req, res) => res.send("index"));
+server.listen(port, () => console.log(`\n*** Listening on port ${port}***\n`));

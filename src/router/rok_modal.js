@@ -1,4 +1,4 @@
-const db = require("../../data/db-config");
+const db = require("../data/db-config");
 
 const getOtherBuilds = (arr, build) => {
   let other_builds = "";
