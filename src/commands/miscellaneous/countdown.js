@@ -1,9 +1,9 @@
 const { Timer } = require("easytimer.js");
 const embeds = require("./embed.js");
 
-let getArgs = (msg, cmd) => {
-  let command = msg.content;
-  let args = command.slice(command.indexOf(cmd) + cmd.length);
+const getArgs = (msg, cmd) => {
+  const command = msg.content;
+  const args = command.slice(command.indexOf(cmd) + cmd.length);
   return args;
 };
 
@@ -13,12 +13,12 @@ module.exports = {
     "A timer for important events: => !cd event_name [number]d [number]h [number]m ",
   triggers: ["cd"],
   handler: (message) => {
-    let commandRecd = "cd ";
-    let args = getArgs(message, commandRecd).split(" ");
-    var title = args.shift();
-    let hours = 0;
-    let minutes = 0;
-    let seconds = 0;
+    const commandRecd = "cd ";
+    const args = getArgs(message, commandRecd).split(" ");
+    const title = args.shift();
+    const hours = 0;
+    const minutes = 0;
+    const seconds = 0;
 
     for (let i = 0; i < args.length; i++) {
       let regx = /(\d*)d|(\d*)h|(\d*)m|(\d*)s/g; // THIS IS LITERALLY BLACK MAGIC DO NOT TOUCH
@@ -41,7 +41,7 @@ module.exports = {
           }
         });
     }
-    let timer = new Timer();
+    const timer = new Timer();
     timer.start({
       countdown: true,
       target: [0, 0, 0, 0, 0],

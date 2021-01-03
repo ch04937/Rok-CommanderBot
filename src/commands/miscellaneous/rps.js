@@ -18,11 +18,11 @@ module.exports = {
   description: "Play a fun game with the bot of rock paper scissors",
   handler: (message) => {
     const cpu = choices[Math.floor(Math.random() * choices.length)]; // generate random choice for computer
-    var msg = message.content.toLowerCase().split(" "); // get the choice of the user
+    const msg = message.content.toLowerCase().split(" "); // get the choice of the user
     const pc = msg[msg.length - 1];
-    let userChoiceIndex = choices.indexOf(pc); // get the index of user's choice
-    let computerChoiceIndex = choices.indexOf(cpu);
-    let userResult = results[computerChoiceIndex][userChoiceIndex]; // get resutls
+    const userChoiceIndex = choices.indexOf(pc); // get the index of user's choice
+    const computerChoiceIndex = choices.indexOf(cpu);
+    const userResult = results[computerChoiceIndex][userChoiceIndex]; // get resutls
 
     const rps = {
       color: 0xf66108,
