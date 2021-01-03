@@ -1,19 +1,16 @@
-const castle = require("./embeds/castleEmbed");
+const { formatEmbedCastle, errorEmbed } = require("../../utils/embed");
+const { getCastle } = require("./rok_modal");
 
 module.exports = {
   name: "Castle Upgrades",
   description: "Learn information about castle upgrades",
   triggers: ["castle"],
-  handler: (msg) => {
-    // loop through object to find key s
-    for (let i = 0; i < Object.keys(castle.levels).length; i++) {
-      // search for the key
-      if (msg.content === `!castle ${i + 1}`) {
-        //  send the values as embed
-        return msg.channel.send({
-          embed: castle.levels[i + 1],
-        });
-      }
+  handler: async (message) => {
+    const msg = message.content.split(" ").pop();
+    const level = await getCastle(msg);
+    if (level.length === 0) {
+      return message.channel.send({ embed: errorEmbed() });
     }
+    return message.channel.send({ embed: formatEmbedCastle(level.pop()) });
   },
 };

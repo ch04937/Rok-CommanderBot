@@ -19,8 +19,11 @@ const getCommander = async (name, build) => {
 const getCity = (level) => {
   return db("city").where({ level });
 };
-
+const getCastle = (level) => {
+  return db("castle").where({ level });
+};
 module.exports = {
   getCommander,
   getCity,
+  getCastle,
 };

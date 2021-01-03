@@ -26,6 +26,7 @@ const formatEmbed = (embed) => {
       {
         name: "Other Commander Builds Include:",
         value: `!tree ${embed.name.toLowerCase()} ${embed.other_builds || " "}`,
+        inline: true,
       },
     ],
   };
@@ -52,33 +53,80 @@ const formatEmbedCity = (embed) => {
       {
         name: "Unlocks",
         value: embed.unlocks,
+        inline: true,
       },
       {
         name: "Requirements",
         value: embed.requirements,
+        inline: true,
       },
       {
         name: "Troop Capacity",
         value: embed.troop,
+        inline: true,
       },
       {
         name: "Cost",
         value: embed.cost,
+        inline: true,
       },
       {
         name: "Time",
         value: embed.time,
+        inline: true,
       },
       {
         name: "Power",
         value: embed.power,
+        inline: true,
       },
     ],
   };
 };
+
+const formatEmbedCastle = (embed) => {
+  return {
+    ...boiler,
+    description: embed.description,
+    thumbnail: {
+      url:
+        "https://vignette.wikia.nocookie.net/riseofcivilizations/images/f/fd/Building_Castle_1_5.png/revision/latest/scale-to-width-down/180?cb=20181114154437",
+    },
+    fields: [
+      {
+        name: "Requirements",
+        value: embed.requirements,
+        inline: true,
+        inline: true,
+      },
+      {
+        name: "Rally Capacity",
+        value: embed.rally,
+        inline: true,
+      },
+      {
+        name: "Cost",
+        value: embed.cost,
+        inline: true,
+      },
+      {
+        name: "Time",
+        value: embed.time,
+        inline: true,
+      },
+      {
+        name: "Power",
+        value: embed.power,
+        inline: true,
+      },
+    ],
+  };
+};
+
 module.exports = {
   boiler,
   formatEmbed,
   formatEmbedCity,
+  formatEmbedCastle,
   errorEmbed,
 };

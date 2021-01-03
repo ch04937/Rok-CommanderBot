@@ -7,10 +7,10 @@ module.exports = {
   triggers: ["city"],
   handler: async (message) => {
     const msg = message.content.split(" ").pop();
-    const city = await getCity(msg);
-    if (city.length === 0) {
+    const level = await getCity(msg);
+    if (level.length === 0) {
       return message.channel.send({ embed: errorEmbed() });
     }
-    return message.channel.send({ embed: formatEmbedCity(city.pop()) });
+    return message.channel.send({ embed: formatEmbedCity(level.pop()) });
   },
 };
