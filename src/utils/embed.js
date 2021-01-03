@@ -97,7 +97,6 @@ const formatEmbedCastle = (embed) => {
         name: "Requirements",
         value: embed.requirements,
         inline: true,
-        inline: true,
       },
       {
         name: "Rally Capacity",
